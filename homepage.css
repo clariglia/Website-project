@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(20, 20, 20);
+}
+.container1 {
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.topbar {
+    height: 13%;
+    border: 1px solid pink;
+    padding: 2.3rem 15.7rem;
+}
+
+.logo {
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid red;
+}
+
+.anchor {
+    width: 54rem;
+    height: 5rem;
+    border: 1px solid blue;
+    font-size: 2.0rem;
+    margin: 0rem 7.5rem;
+    padding: 1rem 2rem;
+    position: absolute;
+    top: 2.7rem;
+}
+a {
+    text-decoration: none; 
+    margin: 0 2rem;
+    color: #d4d4d8;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.btn {
+    position: absolute;
+    right: 15rem;
+    top: 3.5rem;
+    height: 3rem;
+    padding: 0 2rem;
+    background-color: #3abab4;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 15rem;
+    border-radius: 0.4rem;
+}
+
+.leftcontainer {
+    border: 1px solid rgb(17, 197, 41);
+    width: 55rem;
+    height: 60rem;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
