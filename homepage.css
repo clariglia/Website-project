@@ -66,3 +66,7 @@ h1 {
     font-weight: bold;
 }
 
+.leftcontainer {
+    border: 1px solid green;
+}
+
