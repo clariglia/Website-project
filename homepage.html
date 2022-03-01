@@ -13,14 +13,16 @@
     <!--nav bar-->
     <section>
         <nav>
-            <img src="" alt="Logo">
-            <a href="https://preview.cruip.com/appy/about.html">About</a>
-            <a href="https://preview.cruip.com/appy/blog.html">Blog</a>
-            <a href="https://preview.cruip.com/appy/testimonials.html">Features</a>
-            <a href="https://">Resources</a>
-            <button><a href="https://preview.cruip.com/appy/contact.html">Request code</a></button>
+            <svg class="logo" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"> <defs> <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_a"> <stop stop-color="#3ABAB4" offset="0%"></stop> <stop stop-color="#7F9CF5" offset="100%"></stop> </linearGradient> <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_b"> <stop stop-color="#3ABAB4" offset="0%"></stop> <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop> </linearGradient> </defs> <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#logo_a)"></path> <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#logo_b)"></path> </svg>
+            <div class="anchornav">
+                <a href="https://preview.cruip.com/appy/about.html">About</a>
+                <a href="https://preview.cruip.com/appy/blog.html">Blog</a>
+                <a href="https://preview.cruip.com/appy/testimonials.html">Testimonials</a>
+                <a href="https://">Resources</a>
+            <button class="btn" type="submit" ><a href="https://preview.cruip.com/appy/contact.html">Request code</a></button>
         </nav>
         <!--container left written-->
+        <div class="sectionone">
         <header class="written">
             <h1>Your website,<br>
                 reimagined</h1>
@@ -28,65 +30,72 @@
                 to set it up once, and get beautiful results forever.</p>
             <form>
                 <input type="tel" placeholder="Phone Number">
-                <button>Request code</button>
+                <button class="btntwo" type="submit">Request code</button>
             </form>
-            <ol>
-                <li>Lorem ipsum is placeholder text commonly.</li>
-                <li>Excepteur sint occaecat cupidatat.</li>
-                <li>Lorem ipsum is placeholder text commonly.</li>
+            <ol class="list">
+                <p class="writtenlist"><span>✓</span>Lorem ipsum is placeholder text commonly.</p>
+                <p class="writtenlist"><span>✓</span>Excepteur sint occaecat cupidatat.</p>
+                <p class="writtenlist"><span>✓</span> ipsum is placeholder text commonly.</p>
             </ol>
         </header>
         <!--container right img-->
         <section class="containerimg">
-        <img src="" alt="Phone mockup">
-        <img src="" alt="Image phone">
+         <img src="/immagini.homepage/iphone-mockup.png" alt="Phone mockup">
+        <img class="photophone" src="/immagini.homepage/mockup-image-01.jpg" alt="Image phone">
         </section>
+        </div>
          <!--container number-->
         <section class="containernumber">
-        <div>
+        <div class="boxnumber">
             <h3>2.4M</h3>
-            <p>Days turn around</p>
+            <p class="boxp">Days turn around</p>
         </div>
-        <div>
+        <div class="boxnumber">
             <h3>7M</h3>
-            <p>Days turn around</p>
+            <p class="boxp">Days turn around</p>
         </div>
-        <div>
-            <h3>7.4M</h3>
-            <p>Days turn around</p>
+        <div class="boxnumber">
+            <h3>7.4%</h3>
+            <p class="boxp">Days turn around</p>
         </div>
-        <div>
+        <div class="boxnumber">
             <h3>49K</h3>
-            <p>Days turn around</p>
+            <p class="boxp">Days turn around</p>
         </div>
         </section>
     </section>
     <hr>
     <!--second section-->
-    <section>
+    <section class="secondsection">
         <!--written second section-->
-        <header>
+        <header class="secondwritten">
         <h2>From rough design files, to<br>
              powerful products</h2>
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat<br>
             nulla pariatur excepteur sint occaecat cupidatat.</p>
         </header>
         <!--carosello immagini + bottoni-->
-        <picture>
-            <button><img src="" alt="carousel1">Learn More</button>
-            <button><img src="" alt="carousel2">Learn More</button>
-            <button><img src="" alt="carousel3">Learn More</button>
-            <button><img src="" alt="carousel4">Learn More</button>
+        <picture class="carousel">
+            <div class="carousel1">
+                <img src="/immagini.homepage/carousel-item-02.jpg" alt="carousel1"><button class="carouselbtn">Learn More</button>
+            </div>
+            <div class="carousel1">
+                <img src="/immagini.homepage/carousel-item-03.jpg" alt="carousel2"><button class="carouselbtn">Learn More</button>
+            </div>
+            <div class="carousel1">
+            <img src="/immagini.homepage/carousel-item-04.jpg" alt="carousel3"><button class="carouselbtn">Learn More</button>
+            </div>
+            <!--<img src="/immagini.homepage/carousel-item-05.jpg" alt="carousel4"><button class="carouselbtn">Learn More</button>-->
         </picture>
         <!--bottoni destra e sinistra con freccine svg-->
-        <div>
-            <button>
+        <!--<div class="containerfreccine">
+            <button class="frecciasinistra">
                 <svg class="af ub cx text-white dark--text-gray-400 vg gl d_ dz vr" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M6.7 14.7l1.4-1.4L3.8 9H16V7H3.8l4.3-4.3-1.4-1.4L0 8z"></path></svg>
             </button>
-            <button>
+            <button class="frecciadestra">
                 <svg class="af ub cx text-white dark--text-gray-400 vg gl d_ dz vr" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"> <path d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z"></path> </svg>
             </button>
-        </div>
+        </div>-->
     </section>
     <hr>
     <!--third section-->
