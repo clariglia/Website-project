@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+aside h3 {
+    color: white;
+}
+
+aside h5 {
+    color: white;
+}
+
+aside a {
+    color: lightgray;
+}
+
+aside span {
+    color: grey;
+}
+
+aside article {
+    display: inline-block;
+}
+
+
