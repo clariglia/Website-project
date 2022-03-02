@@ -12,7 +12,7 @@ h1 {
 h2 {
     color: #f4f4f5;
     font-size: 56px;
-    font-family: sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 p {
@@ -63,6 +63,7 @@ a {
     background-color: #3abab4;
     color: #ffffff;
     font-weight: bolder;
+    border:none;
     font-size: 16px;
     width: 150px;
     height: 40px;
@@ -109,6 +110,8 @@ input {
     color:#f4f4f5;
     font-weight: bolder;
     font-size: 16px;
+    border:none;
+    cursor: pointer;
 }
 
 
@@ -190,6 +193,7 @@ h3 {
 
 .secondwritten {
     text-align:center;
+    margin: 50px 0;
 
 }
 
@@ -228,6 +232,11 @@ h3 {
     fill:#4fd1d5;
     background-color:#31979533;
     color:#4fd1d5;
+    margin: 10px 10px;
+    border:none;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 .svgthirdsection {
@@ -239,20 +248,106 @@ h3 {
 .btnthirdsection {
     color:#d4d4d8;
     background-color: #2e2e33;
-    margin: 20px 20px 0 0;
+    margin: 10px 10px;
+    border:none;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
+.thirddisplayflex {
+    border: 1px solid rgb(0, 183, 255);
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin: 20px 20px;
+}
 .listflex {
     display:flex;
     flex-direction:column;
-    width: 180px;
-    margin: 50px 350px;
+    width: 270px;
+    border: 1px solid pink;
 }
 
 .thirdwritten {
     text-align:center;
+    margin: 50px 0;
+}
+
+.containerphotovideo {
+    border: 1px solid cornflowerblue;
+    width: 675px;
+    height: 510px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.boxonevideo {
+    background-image:url("/immagini.homepage/video.png");
+    width: 325px;
+    height:194px;
+    border: 1px solid purple;
+    background-size: cover;
+}
+
+.boxtwovideo {
+    background-image:url("/immagini.homepage/video.png");
+    width: 325px;
+    height: 194px;
+    border: 1px solid yellow;
+    background-size: cover;
+}
+
+.boxthreevideo {
+    background-image:url("/immagini.homepage/video.png");
+    width:325px;
+    height: 194px;
+    background-size: cover;
+    border: 1px solid green;
+}
+
+.boxfourvideo {
+    background-image:url("/immagini.homepage/video.png");
+    width: 325px;
+    height: 194px;
+    background-size: cover;
 }
 
 .fourthwritten {
     text-align:center;
+    margin: 50px 0;
+}
+
+.containerphone {
+    border: 1px solid fuchsia;
+    width: 1300px;
+    height: 1700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.phone1 {
+    background-image:url("/immagini.homepage/iphone-mockup.png");
+    background-size: cover;
+    width: 300px;
+    height: 580px;
+    border: 1px solid palevioletred;
+}
+
+.phone2 {
+    background-image:url("/immagini.homepage/iphone-mockup.png");
+    background-size: cover;
+    width: 300px;
+    height: 580px;
+    border: 1px solid yellowgreen;
+}
+
+.phone3 {
+    background-image:url("/immagini.homepage/iphone-mockup.png");
+    background-size: cover;
+    width: 300px;
+    height: 580px;
+    border: 1px solid indianred;
 }
