@@ -20,18 +20,24 @@ p {
     font-family: sans-serif;
     color: #a2a2a8; 
 }
-
+.aself {
+    align-self:center;
+}
 .logo {
-    width: 32px;
+    border: 1px solid red;
+    width: 50px;
     height: 30px;
-    margin: 20px;
-    position: relative;
-    left: 170px;
+    align-self:center;
+    cursor:pointer;
 }
 nav {
     margin: 1px 0px;
     width: 100%;
+    height: max-content;
     border: 1px solid red;
+    display: flex; 
+    flex-wrap:wrap;
+    justify-content:space-around;
 }
 .circle {
     width: 44px;
@@ -51,12 +57,14 @@ a {
     font-size: 16px;
 }
 .anchornav {
+    border: 1px solid blue;
     font-size: 16px;
     font-family: sans-serif;
     margin: 10px 10px;
-    position: absolute;
-    top: 15px;
-    left: 250px;
+    width: 450px;
+    display: flex;
+    flex-direction:row;
+    align-self:center;
 
 }
 .btn {
@@ -68,9 +76,14 @@ a {
     width: 150px;
     height: 40px;
     text-decoration:none;
-    position: absolute;
+    /*position: absolute;*/
     border-radius: 4px;
-    margin: 0 20px 0 500px;
+}
+.borderbtn {
+    border: 1px solid green;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
 }
 
 .written {
@@ -280,7 +293,7 @@ h3 {
     height: 510px;
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .boxonevideo {
@@ -322,10 +335,44 @@ h3 {
 .containerphone {
     border: 1px solid fuchsia;
     width: 1300px;
-    height: 1700px;
+    height: max-content;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 100px 100px;
+}
+
+.one {
+    font-size: 16px;
+    color:#4fd1d5;
+    font-family: sans-serif;
+    text-align:center;
+    background-color: #31979540;
+    width: 50px;
+    height:50px;
+    border-radius: 50px;
+}
+
+.two {
+    font-size: 16px;
+    color:#4fd1d5;
+    font-family: sans-serif;
+    text-align:center;
+    background-color: #31979540;
+    width: 50px;
+    height:50px;
+    border-radius: 50px;
+}
+
+.three {
+    font-size: 16px;
+    color:#4fd1d5;
+    font-family: sans-serif;
+    text-align:center;
+    background-color: #31979540;
+    width: 50px;
+    height:50px;
+    border-radius: 50px;
 }
 
 .phone1 {
