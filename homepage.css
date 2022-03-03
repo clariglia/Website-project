@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
     background-color: #1d1d20;
+    padding: 0 150px;
 }
 
 h1 {
@@ -423,6 +425,7 @@ h3 {
     gap:15px;
     margin:85px 150px;
     position:relative;
+    justify-content: center;
 }
 
 .green-rectangle {
@@ -441,7 +444,8 @@ h3 {
     background-color: #ed64a6;
 }
 
-h4 {
+
+.svg-colored-up~h4 {
     font-family: "Red Hat Display", Helvetica, Sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -472,4 +476,47 @@ h4 {
 .container-arrow:hover {
     position: absolute;
     left:7px;
+}
+
+h4~p {
+    color:rgb(255,255,255,0.8);
+    font-family: "inter", helvetica, sans-serif;
+    position:absolute;
+    top:95px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+section>h2 {
+    font-family: "Red Hat Display", Helvetica, sans-serif;
+    font-size:56px;
+    color:#F4F4F5;
+    text-align: center;
+    letter-spacing:-0.02em;
+    line-height: 1.18;
+    font-weight:700;
+}    
+
+.seventh {
+    border-top: 1px solid #44444480;
+    margin: 80px 0 0 0;
+    padding: 80px 0 0 0;
+}
+
+.on-footer-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 40px 0;
+    background-image: radial-gradient(circle at 1030px -35px,rgba(58,186,180,0.4) , rgba(46,46,51,255) 40%);
+    align-content: center;
+    height: 232.35px;
+}
+
+.on-footer-container-1>h3 {
+    font-family: "Red Hat Display", Helvetica, Sans-serif;
+    font-size: 42.08px;
+    font-weight:800;
+    letter-spacing: -0.02em;
+    color:#f4f4f5;
+    line-height: 1.18;
 }
