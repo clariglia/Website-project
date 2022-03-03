@@ -29,3 +29,18 @@ aside article {
     text-decoration: none;
     padding: 5px;
 }
+
+footer ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+footer li {
+    color: white;
+}
+
+footer a {
+    color: lightgray;
+    text-decoration: none;
+}
+
