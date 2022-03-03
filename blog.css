@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+aside {
+    font-size: 16px;
+}
+
 aside h3 {
     color: white;
 }
@@ -29,6 +33,11 @@ aside article {
     color: white;
     text-decoration: none;
     padding: 5px;
+    font-size: 15px;
+}
+
+footer {
+    font-size: 13px;
 }
 
 footer ul {
