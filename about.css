@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+body {
+    font-family: 'Inter', 'Sansserif';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url(https://fonts.gstatic.com/s/inter/v8/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-display: fallback;
+    src: url(https://fonts.gstatic.com/s/redhatdisplay/v11/8vIQ7wUr0m80wwYf0QCXZzYzUoTg_T6h.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+*/
+
+/* header */
+
+header {
+    background-image: url(https://preview.cruip.com/appy/images/hero-bg-03.jpg);
+}
+
+.logo {
+    width: 2rem;
+    margin: 1em;
+}
+
+nav {
+    display: flex;
+    background-color: transparent;
+    justify-content:space-around ;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav > ul > li {
+    padding: 1.5em;
+}
+
+nav > button {
+    background-color: rgb(58 186 180);
+    border: none;
+    color: white;
+    padding: 1em;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+nav > button:hover {
+    background-color: rgb(79, 209, 197);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-image: url(https://preview.cruip.com/appy/images/about-hero.jpg);
+}
+
