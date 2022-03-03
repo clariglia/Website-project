@@ -23,3 +23,9 @@ aside article {
 }
 
 
+.bottom-link{
+    background-color: #404040;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
