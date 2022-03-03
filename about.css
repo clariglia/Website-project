@@ -1,0 +1,50 @@
+.padsidesbase {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+.automargin {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.padtbbase {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.bordertop {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.sez5divh1p {
+	padding-bottom: 4rem;
+	text-align: center;
+	margin-left: 168px;
+	margin-right: 168px;
+}
+
+.h1sez5 {
+	font-family: "Red Hat Display", sans-serif;
+	margin-bottom: 16px;
+	font-size: 56px;
+	line-height: 1.18;
+	font-weight: 800;
+	letter-spacing: -0.02em;
+	opacity: 1;
+}
+
+.psez5 {
+	font-family: "Inter", sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: -0.01em;
+}
+
+.immagine {
+	background-image: url("/about.image/screenshot-sez5.jpg");
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	border: 1px solid red;
+}
