@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: #1d1d20;
+    padding: 0 150px;
 }
 
 h1 {
@@ -397,4 +401,330 @@ h3 {
     width: 300px;
     height: 580px;
     border: 1px solid indianred;
+}
+
+.svg-colored-up {
+    width:32px;
+    height:32px;
+    position:absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.svg-colored-down {
+    width:24px;
+    height:24px;
+    position: absolute;
+    right: 27px;
+    bottom: 20px;
+}
+
+.containercolors{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:15px;
+    margin:85px 150px;
+    position:relative;
+    justify-content: center;
+}
+
+.green-rectangle {
+    background-color: #3abab4;
+}
+
+.purple-rectangle {
+    background-color: #9f7aea;
+}
+
+.blue-rectangle {
+    background-color: #667eea;
+}
+
+.pink-rectangle {
+    background-color: #ed64a6;
+}
+
+
+.svg-colored-up~h4 {
+    font-family: "Red Hat Display", Helvetica, Sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    top:60px;
+    letter-spacing: -.03em;
+}    
+
+.containercolors>a {
+    position:relative;
+    height:206px;
+    width:258px;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.container-arrow {
+    height:206px;
+    width:258px;
+    position:absolute;
+    right: 0;
+    top:0;
+    left:0;
+    transition: left 0.1s ease-in-out;
+}
+
+.container-arrow:hover {
+    position: absolute;
+    left:7px;
+}
+
+h4~p {
+    color:rgb(255,255,255,0.8);
+    font-family: "inter", helvetica, sans-serif;
+    position:absolute;
+    top:95px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: "Red Hat Display", Helvetica, sans-serif;
+    font-size:56px;
+    color:#F4F4F5;
+    text-align: center;
+    letter-spacing:-0.02em;
+    line-height: 1.18;
+    font-weight:700;
+}    
+
+.seventh {
+    border-top: 1px solid #44444480;
+    margin: 80px 0 0 0;
+    padding: 80px 0 0 0;
+}
+
+.on-footer-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 40px 0;
+    background-image: radial-gradient(circle at 1030px -35px,rgba(58,186,180,0.4) , rgba(46,46,51,255) 40%);
+    align-content: center;
+    height: 232.35px;
+}
+
+.on-footer-container-1>h3 {
+    font-family: "Red Hat Display", Helvetica, Sans-serif;
+    font-size: 42.08px;
+    font-weight:800;
+    letter-spacing: -0.02em;
+    color:#f4f4f5;
+    line-height: 1.18;
+}
+
+.btn-on-footer {
+    background-color: #3abab4;
+    color: #ffffff;
+    font-weight: bolder;
+    border:none;
+    font-size: 16px;
+    width: 150px;
+    height: 48px;
+    text-decoration:none;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.site-logo-footer {
+    width:32px;
+    height:32px;
+}
+
+footer {
+    display:grid;
+    grid-template-columns: 216px 178px 178px 178px 178px;;
+}
+
+.articles-with-photos {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 100px;
+    margin: 180px 0;
+    position:relative;
+    border-top: #77777780 solid 1px;
+}
+
+.test-quotes {
+    font-family: "inter", helvetica, sans-serif;
+    font-size: 20px;
+    color: #A2A2A8;
+    line-height:1.5;
+    letter-spacing: -0.01em;
+    font-weight:lighter;
+    text-align: center;
+}
+
+.testimonials>img {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left:215px;
+    top: -50px;
+}    
+
+.test-names {
+    font-family: "red hat display", helvetica, sans-serif;
+    font-size: 16px;
+    color:#F4F4F5;
+    font-weight:700;
+    text-align: center;
+}
+
+.aqualink {
+    font-family: "red hat display", helvetica, sans-serif;
+    font-size: 16px;
+    color: #3ABAB4;
+    font-weight:700;
+}
+
+h2~p {
+    font-family: "inter", helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height:1.5;
+    margin:15px;
+}
+
+.fifth-section-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 258px 258px 258px;
+    justify-content:space-between;
+    gap: 25px;
+    position:relative;
+    left:75px;
+}
+
+.fifth-section {
+    margin: 50px 0;
+}
+
+.cont {
+    width: 258px;
+    height: 362.18px;
+    padding:20px 27px;
+    background-color: #2e2e33;
+    position:relative;
+}
+
+#cont1 {
+    border:#3abab4 solid 2px;
+}
+
+
+.cont>h4 {
+    font-family: "red hat display", helvetica, sans-serif;
+    font-size: 20px;
+    color: #f4f4f5;
+    font-weight: 800;
+}
+
+.discount {
+    background-color:#3abab460;
+    display:inline-block;
+    padding: 3px 12px;
+    border-radius: 15px;
+    color:#3abab4;
+    font-size:12px;
+    font-family: "inter", helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.firstbtn {
+        background-color: #3abab4;
+        color: #ffffff;
+        font-weight: bolder;
+        border:none;
+        font-size: 16px;
+        width: 150px;
+        height: 48px;
+        text-decoration:none;
+        border-radius: 4px;
+        margin: 0 5px;
+        position:absolute;
+        top:287px;
+        margin: 0;
+}
+
+.firstbtn:hover {
+    background-color: #4fd1c5;
+}
+
+.discount{
+    position: relative;
+    left:150px;
+    top:-25px;
+}
+
+.list>h4 {
+    font-family:"red hat display", helvetica,sans-serif;
+    font-size:18px;
+    font-weight:700;
+    color:#f4f4f5;
+}
+
+.dollarsign {
+    font-family: "red hat display", helvetica, sans-serif;
+    font-size:26.08px;
+    color:#a2a2a8;
+    font-weight: 700;
+    position:relative;
+    top:-10px;
+}
+
+.number {
+    font-family: "red hat display", helvetica, sans-serif;
+    font-size: 42.08px;
+    color:#f4f4f5;
+    position:relative;
+    top: -65px;
+    left:10px;
+}
+
+.sentence-second-part {
+    font-family: "red hat display", helvetica, sans-serif;
+    font-size:16px;
+    font-weight:700;
+    color:#a2a2a8;
+    position:relative;
+    top: -65px;
+}
+
+.under-footer-container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.footer-col>h5 {
+    font-family: "inter", helvetica,sans-serif;
+    font-size:14px;
+    color:#f4f4f5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-col {
 }
