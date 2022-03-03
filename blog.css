@@ -12,6 +12,7 @@ aside h5 {
 
 aside a {
     color: lightgray;
+    text-decoration: none;
 }
 
 aside span {
@@ -44,3 +45,6 @@ footer a {
     text-decoration: none;
 }
 
+.copyright{
+    color: lightgrey;
+}
