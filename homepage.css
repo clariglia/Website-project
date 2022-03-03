@@ -663,3 +663,47 @@ h2~p {
         top:287px;
         margin: 0;
 }
+
+.firstbtn:hover {
+    background-color: #4fd1c5;
+}
+
+.discount{
+    position: relative;
+    left:150px;
+    top:-25px;
+}
+
+.list>h4 {
+    font-family:"red hat display", helvetica,sans-serif;
+    font-size:18px;
+    font-weight:700;
+    color:#f4f4f5;
+}
+
+.dollarsign {
+    font-family: "red hat display", helvetica, sans-serif;
+    font-size:26.08px;
+    color:#a2a2a8;
+    font-weight: 700;
+    position:relative;
+    top:-10px;
+}
+
+.number {
+    font-family: "red hat display", helvetica, sans-serif;
+    font-size: 42.08px;
+    color:#f4f4f5;
+    position:relative;
+    top: -65px;
+    left:10px;
+}
+
+.sentence-second-part {
+    font-family: "red hat display", helvetica, sans-serif;
+    font-size:16px;
+    font-weight:700;
+    color:#a2a2a8;
+    position:relative;
+    top: -65px;
+}
