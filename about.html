@@ -6,29 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="resets.css">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="about.css" type="">
     <title>About - Appy demo</title>
 </head>
 <body>
     <header>
         <nav>
+            <div>
+                <a href="#">
+                    <svg class="logo" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"> <defs> <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_a"> <stop stop-color="#3ABAB4" offset="0%"></stop> <stop stop-color="#7F9CF5" offset="100%"></stop> </linearGradient> <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_b"> <stop stop-color="#3ABAB4" offset="0%"></stop> <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop> </linearGradient> </defs> <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#logo_a)"></path> <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#logo_b)"></path> </svg>
+                </a>
+            </div>
             <ul>
-                <li>
-                    <div class="navbar">
-                        <a href=""><img src="" alt="logo"></a>
-                    </div>
-                </li>
                 <li>About</li>
                 <li>Blog</li>
                 <li>Testimonials</li>
                 <li>Resources</li>
-                <li>
-                    <button>
-                        <a href="">Request Code</a>
-                    </button>
-                </li>
             </ul>
+            <div>
+                <label for="light-switch">
+                    <span>
+                        <svg class="ii io" width="44" height="24" viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg"> <g class="cx text-white" fill-rule="nonzero" opacity=".88"> <path d="M32 8a.5.5 0 00.5-.5v-1a.5.5 0 10-1 0v1a.5.5 0 00.5.5zM35.182 9.318a.5.5 0 00.354-.147l.707-.707a.5.5 0 00-.707-.707l-.707.707a.5.5 0 00.353.854zM37.5 11.5h-1a.5.5 0 100 1h1a.5.5 0 100-1zM35.536 14.829a.5.5 0 00-.707.707l.707.707a.5.5 0 00.707-.707l-.707-.707zM32 16a.5.5 0 00-.5.5v1a.5.5 0 101 0v-1a.5.5 0 00-.5-.5zM28.464 14.829l-.707.707a.5.5 0 00.707.707l.707-.707a.5.5 0 00-.707-.707zM28 12a.5.5 0 00-.5-.5h-1a.5.5 0 100 1h1a.5.5 0 00.5-.5zM28.464 9.171a.5.5 0 00.707-.707l-.707-.707a.5.5 0 00-.707.707l.707.707z"></path> <circle cx="32" cy="12" r="3"></circle> <circle fill-opacity=".4" cx="12" cy="12" r="6"></circle> <circle fill-opacity=".88" cx="12" cy="12" r="3"></circle> </g> </svg>
+                    </span>
+                </label>
+                <input type="checkbox" name="light-switch" id="light-switch">
+            </div>
+            <button>
+                <a href="">Request Code</a>
+            </button>
         </nav>
-        <h1>Make your own way</h1>
+        <div>
+            <h1>Make your own way</h1>
+        </div>
     </header>
     <hr>
     <main>
@@ -58,12 +67,12 @@
             </figure>
         </section>
         <section>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="https://preview.cruip.com/appy/images/about-grid-01.jpg" alt="working people">
+            <img src="https://preview.cruip.com/appy/images/about-grid-02.jpg" alt="cat">
+            <img src="https://preview.cruip.com/appy/images/about-grid-03.jpg" alt="people with pc">
+            <img src="https://preview.cruip.com/appy/images/about-grid-04.jpg" alt="co-working">
+            <img src="https://preview.cruip.com/appy/images/about-grid-05.jpg" alt="break">
+            <img src="https://preview.cruip.com/appy/images/about-grid-06.jpg" alt="punch today in the face">
         </section>
         <hr>
         <section>
@@ -109,6 +118,32 @@
         <section>
             <h2>Explore roles at Appy’s offices around the world</h2>
             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
+            <section>
+                <div class="slides" id="sl-1">
+                    <h3>Development</h3>
+                    <p>4 positions</p>
+                </div>
+                <div class="slides"  id="sl-2">
+                    <h3>Product&Design</h1>
+                    <p>10 positions</p>
+                </div>
+                <div class="slides" id="sl-3">
+                    <h3>Marketing</h1>
+                    <p>2 positions</p>
+                </div>
+                <div class="slides" id="sl-4">
+                    <h3>Data Science</h1>
+                    <p>4 positions</p>
+                </div>
+                <div class="slides" id="sl-5">
+                    <h3>Internal Systems</h1>
+                    <p>0 positions</p>
+                </div>
+                <div class="slides" id="sl-6">
+                    <h3>Administrative</h1>
+                    <p>0 positions</p>
+                </div>
+            </section>
             <aside>
                 <h2>Locations</h2>
                 <ul>
@@ -119,32 +154,6 @@
                     <li>Berlin, DE (12)</li>
                 </ul>
             </aside>
-            <section>
-                <div class="slides">
-                    <h3>Development</h3>
-                    <p>4 positions</p>
-                </div>
-                <div class="slides">>
-                    <h3>Product&Design</h1>
-                    <p>10 positions</p>
-                </div>
-                <div class="slides">
-                    <h3>Marketing</h1>
-                    <p>2 positions</p>
-                </div>
-                <div class="slides">
-                    <h3>Data Science</h1>
-                    <p>4 positions</p>
-                </div>
-                <div class="slides">
-                    <h3>Internal Systems</h1>
-                    <p>0 positions</p>
-                </div>
-                <div class="slides">
-                    <h3>Administrative</h1>
-                    <p>0 positions</p>
-                </div>
-            </section>
         </section>
         <hr>
         <section>
@@ -155,6 +164,81 @@
             css: background immagine
         ????????????????????????????-->
     
+        </section>
+        <hr>
+        <section>
+            <h1>Your future roommates</h1>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
+            <div>
+                <figure>
+                    <img src="https://preview.cruip.com/appy/images/team-member-01.jpg" alt="Sergey Filkov">
+                    <figcaption>Sergey Filkov</figcaption>
+                </figure>
+                <a href="https://twitter.com/?lang=it"> </a>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://preview.cruip.com/appy/images/team-member-02.jpg" alt="Mary Champ">
+                    <figcaption>Mary Champ</figcaption>
+                </figure>
+                <a href="https://twitter.com/?lang=it"> </a>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://preview.cruip.com/appy/images/team-member-03.jpg" alt="Mark Varsano">
+                    <figcaption>Mark Varsano</figcaption>
+                </figure>
+                <a href="https://twitter.com/?lang=it"> </a>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://preview.cruip.com/appy/images/team-member-04.jpg" alt="George Hurley">
+                    <figcaption>George Hurley</figcaption>
+                </figure>
+                <a href="https://twitter.com/?lang=it"> </a>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://preview.cruip.com/appy/images/team-member-05.jpg" alt="Ellie Lepisov">
+                    <figcaption>Ellie Lepisov</figcaption>
+                </figure>
+                <a href="https://twitter.com/?lang=it"> </a>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://preview.cruip.com/appy/images/team-member-06.jpg" alt="Connor Bal">
+                    <figcaption>Connor Bal</figcaption>
+                </figure>
+                <a href="https://twitter.com/?lang=it"> </a>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://preview.cruip.com/appy/images/team-member-07.jpg" alt="Marko Sharma">
+                    <figcaption>Marko Sharma</figcaption>
+                </figure>
+                <a href="https://twitter.com/?lang=it"> </a>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://preview.cruip.com/appy/images/team-member-08.jpg" alt="Mick Esposito">
+                    <figcaption>Mick Esposito</figcaption>
+                </figure>
+                <a href="https://twitter.com/?lang=it"> </a>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://preview.cruip.com/appy/images/team-member-09.jpg" alt="Daniel Smith">
+                    <figcaption>Daniel Smith</figcaption>
+                </figure>
+                <a href="https://twitter.com/?lang=it"> </a>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://preview.cruip.com/appy/images/team-member-10.jpg" alt="Patricia Long">
+                    <figcaption>Patricia Long</figcaption>
+                </figure>
+                <a href="https://twitter.com/?lang=it"> </a>
+            </div>
         </section>
         <hr>
         <section>
