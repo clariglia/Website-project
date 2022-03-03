@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700;800&display=swap');
+
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: #1d1d20;
 }
 
 h1 {
@@ -397,4 +399,77 @@ h3 {
     width: 300px;
     height: 580px;
     border: 1px solid indianred;
+}
+
+.svg-colored-up {
+    width:32px;
+    height:32px;
+    position:absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.svg-colored-down {
+    width:24px;
+    height:24px;
+    position: absolute;
+    right: 27px;
+    bottom: 20px;
+}
+
+.containercolors{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:15px;
+    margin:85px 150px;
+    position:relative;
+}
+
+.green-rectangle {
+    background-color: #3abab4;
+}
+
+.purple-rectangle {
+    background-color: #9f7aea;
+}
+
+.blue-rectangle {
+    background-color: #667eea;
+}
+
+.pink-rectangle {
+    background-color: #ed64a6;
+}
+
+h4 {
+    font-family: "Red Hat Display", Helvetica, Sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    top:60px;
+    letter-spacing: -.03em;
+}    
+
+.containercolors>a {
+    position:relative;
+    height:206px;
+    width:258px;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.container-arrow {
+    height:206px;
+    width:258px;
+    position:absolute;
+    right: 0;
+    top:0;
+    left:0;
+    transition: left 0.1s ease-in-out;
+}
+
+.container-arrow:hover {
+    position: absolute;
+    left:7px;
 }
