@@ -187,7 +187,8 @@ footer {
 }
 
 footer ul {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
 }
 
@@ -202,4 +203,9 @@ footer a {
 
 .copyright{
     color: lightgrey;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
 }
