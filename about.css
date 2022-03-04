@@ -34,6 +34,7 @@
 
 .h1sez5 {
 	font-family: "Red Hat Display", sans-serif;
+	color: white;
 	margin-bottom: 16px;
 	font-size: 56px;
 	line-height: 1.18;
@@ -43,6 +44,7 @@
 }
 
 .psez5 {
+	color: rgb(162 162 168);
 	font-family: "Inter", sans-serif;
 	font-size: 20px;
 	line-height: 1.5;
