@@ -3,7 +3,6 @@
 
 body {
     background-color: rgb(29 29 32);
-    padding: 0 150px;
 }
 
 h1 {
@@ -156,7 +155,7 @@ span {
 
 .containerimg {
     width: 420px;
-    height: 750px;
+    height: 700px;
     border: 1px solid blue;
     background-image:url("/immagini.homepage/iphone-mockup.png");
     background-size: cover;
@@ -169,7 +168,7 @@ span {
     height: 800px;
     display: flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -182,27 +181,29 @@ span {
 
 .containernumber {
     box-sizing:border-box;
-    border: 1px solid salmon;
+    border: 1px solid lawngreen;
     display:flex;
     justify-content: space-around;
     margin-top: 50px;
+    padding: 0 210px;
 }
 
 .boxnumber {
-    background-color: #2e2e33;
-    width: 230px;
-    height: 144px;
-    padding: 32px 4px;
+    background-color: rgb(46 46 51);
+    width: 23rem;
+    height: 14.4rem;
+    padding: 3.2rem 0.4rem;
 }
 
 h3 {
     color: #f4f4f5;
-    font-size: 42px;
-    padding: 0px 70px;
+    font-size: 42.08px;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
 }
 
 .boxp {
-    padding: 0px 30px;
+    text-align:center;
 }
 
 .secondsection {
@@ -340,13 +341,14 @@ h3 {
     margin: 50px 0;
 }
 
+
 .containerphone {
     border: 1px solid fuchsia;
     width: 1300px;
     height: max-content;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .one {
@@ -358,6 +360,7 @@ h3 {
     width: 50px;
     height:50px;
     border-radius: 50px;
+
 }
 
 .two {
@@ -506,6 +509,12 @@ h2 {
     padding: 80px 0 0 0;
 }
 
+.seventhsection {
+    border: 1px solid plum;
+    display: flex;
+    justify-content: center;
+}
+
 .on-footer-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -513,6 +522,7 @@ h2 {
     background-image: radial-gradient(circle at 1030px -35px,rgba(58,186,180,0.4) , rgba(46,46,51,255) 40%);
     align-content: center;
     height: 232.35px;
+    width: 1200px;
 }
 
 .on-footer-container-1>h3 {
@@ -731,6 +741,11 @@ ul {
     height: 363px;
     margin: 150px 50px;
 
+}
+
+.flexfoot {
+    display: flex;
+    justify-content: center;
 }
 
 .social-logo {
