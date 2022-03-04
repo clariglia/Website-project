@@ -1,3 +1,339 @@
+/* vedi come impostare! */
+
+* {
+	box-sizing: content-box;
+}
+
+body {
+	padding: 0 10%;
+}
+
+/* navbar */
+
+.header {
+	width: 100%;
+	height: 600px;
+	display: flex;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 25px;
+}
+
+nav > ul {
+	width: 35%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav > ul > li {
+	list-style: none;
+	
+}
+
+.img-header {
+	width: 50%;
+	height: 250px;
+	margin: auto;
+	background-image: url("/about.image/about-hero.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.break {
+	width: 0;
+	height: 50px;
+	margin: auto;
+	border: solid 1px rgb(212, 212, 216);
+	fill: rgb(212, 212, 216);
+}
+
+/* section 1 */
+
+.sec-1 {
+	text-align: center;
+}
+
+.svg-sec-1 {
+	width: 70%;
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.svg-sec-1 > div > svg {
+	 width: 80px;
+	 fill: red;
+	 border: solid 1px red;
+	 border-radius: 40px;
+ }
+
+ .empty-sec-1 {
+	 width: 15%;
+	 height: 0;
+	 border: solid 1px rgb(63, 63, 69);
+ }
+
+/* section 2  --> GRID <--  */
+
+.sec-2 {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: auto auto;
+	gap: 10px;
+}
+
+.sec-2 > div {
+	height: 150px;
+}
+
+.img-1-sec-2 {
+	height: 200px;
+	background-image: url("/about.image/about-grid-01.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	grid-column: 1 / span 4;
+
+}
+
+.img-2-sec-2 {
+	height: 200px;
+	background-image: url("/about.image/about-grid-02.jpg");
+}
+
+.img-3-sec-2 {
+	height: 200px;
+	background-image: url("/about.image/about-grid-03.jpg");
+}
+
+.img-4-sec-2 {
+	height: 200px;
+	background-image: url("/about.image/about-grid-04.jpg");
+}
+
+.img-5-sec-2 {
+	height: 200px;
+	background-image: url("/about.image/about-grid-05.jpg");
+}
+
+.img-6-sec-2 {
+	height: 200px;
+	background-image: url("/about.image/about-grid-06.jpg");
+}
+
+/* scetion 3 */
+
+.big-sec-3 {
+	border: solid 1px green;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+
+.sub-sec-3 {
+	text-align: center;
+}
+
+.sec-3 aside {
+	border: solid pink;
+	width: 15%;
+}
+
+.art-sec-3 {
+	border: solid orangered;
+	width: 65%;
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 30px;
+}
+
+
+.art-sec-3 > article {
+	border: solid 1px black;
+	height: 100px;
+
+
+}
+
+.icon-sec-3 {
+	width: 12px;
+	display: inline-block;
+}
+
+/* aside */
+
+.sec-3 aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.sec-3 aside > button {
+	display: flex;
+	justify-content: space-around;
+
+/* stile bottoni */
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.sec-3 aside > button > div {
+	border: solid 1px red;
+	width: 5px;
+	height: 5px;
+	border-radius: 5px;
+	display: flex;
+
+
+	position: relative;
+}
+
+.sec-3 aside > button > div > span {
+	border: solid 1px goldenrod;
+	height: 20px;
+
+	position: absolute;
+	top: 12px;
+}
+
+/* section 4 */
+
+.sub-sec-4 {
+	text-align: center;
+}
+
+.big-sec-4 {	
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 2 */
+/* --------------------------> FLEX <------------------------
+.sec-2 {
+	border: solid 1px green;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+.sec-2 > div {
+	margin: 5px;
+}
+
+.img-1-sec-2 {
+	border: solid 1px red;
+	height: 200px;
+	width: 200px;
+	background-image: url("/about.image/about-grid-01.jpg");
+	background-size: cover;
+}
+
+.img-2-sec-2 {
+	border: solid 1px red;
+	height: 200px;
+	width: 200px;
+	background-image: url("/about.image/about-grid-02.jpg");
+	background-size: cover;
+}
+
+.img-3-sec-2 {
+	border: solid 1px red;
+	height: 200px;
+	width: 200px;
+	background-image: url("/about.image/about-grid-03.jpg");
+	background-size: cover;
+}
+
+.img-4-sec-2 {
+	border: solid 1px red;
+	height: 200px;
+	width: 200px;
+	background-image: url("/about.image/about-grid-04.jpg");
+	background-size: cover;
+}
+
+.img-5-sec-2 {
+	border: solid 1px red;
+	height: 200px;
+	width: 200px;
+	background-image: url("/about.image/about-grid-05.jpg");
+	background-size: cover;
+}
+
+.img-6-sec-2 {
+	border: solid 1px red;
+	height: 200px;
+	width: 200px;
+	background-image: url("/about.image/about-grid-06.jpg");
+	background-size: cover;
+}
+*/
+
+
+
+
+
+
+
+
+
+
 .padsidesbase {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
@@ -51,6 +387,8 @@
 	text-align: center;
 	letter-spacing: -0.01em;
 }
+
+/* ??? */
 
 img[src^="about.image/team-member-"] {
 	border-radius: 9999px;
