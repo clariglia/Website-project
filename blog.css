@@ -156,6 +156,10 @@ aside h5 {
     color: white;
 }
 
+aside ol {
+    list-style-type: none;
+}
+
 aside a {
     color: lightgray;
     text-decoration: none;
