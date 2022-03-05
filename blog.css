@@ -145,13 +145,14 @@ a {
 }
 
 aside {
-    width: 40%;
+    width: 25%;
     border: 1px solid yellow;
     height: max-content;
 }
 
 aside h3 {
     color: white;
+    font-size: 26.08px;
 }
 
 aside h5 {
@@ -162,7 +163,18 @@ aside ol li{
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    margin: 10px;
    
+}
+
+.title-number {
+    display:flex;
+    align-items: center;
+}
+
+.subtitle-list {
+    font-size: 14px;
+    color: #6e6e76;
 }
 
 aside a {
