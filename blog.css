@@ -145,7 +145,9 @@ a {
 }
 
 aside {
-    font-size: 16px;
+    width: 40%;
+    border: 1px solid yellow;
+    height: max-content;
 }
 
 aside h3 {
@@ -153,11 +155,14 @@ aside h3 {
 }
 
 aside h5 {
-    color: white;
+    color: white;;
 }
 
-aside ol {
+aside ol li{
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+   
 }
 
 aside a {
@@ -165,12 +170,10 @@ aside a {
     text-decoration: none;
 }
 
-aside span {
+aside div {
     color: grey;
-}
-
-aside article {
-    display: inline-block;
+    font-size: 25px;
+    float: left;
 }
 
 
@@ -208,4 +211,41 @@ footer a {
 .footer-container {
     display: flex;
     justify-content: space-around;
+}
+
+.social-icon {
+    width: 32px;
+    height: 30px;
+    fill: #3ABAB4
+}
+
+.btn-social {
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #2E2E33;
+}
+
+.last-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.btn-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.third-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.left-third-section {
+    width: 60%;
 }
