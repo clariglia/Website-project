@@ -3,12 +3,15 @@
 
 body {
     background-color: rgb(29 29 32);
+    padding: 0 10%;
 }
 
 h1 {
     color: #f4f4f5;
     font-size: 72px;
     font-family:'Red Hat Display', sans-serif;
+    line-height: 1.1
+    
     
 }
 
@@ -141,7 +144,7 @@ input {
     right: 13px;
  }
 
-.writtenlist {
+ .list-first-section {
     color:#a2a2a8;
     font-size: 16px;
     margin: 7px 0;
@@ -440,7 +443,9 @@ h3 {
     justify-content: space-around;
 
 }
+/*inizio parte francesco*/
 
+/*settima sezione*/
 .svg-colored-up {
     width:32px;
     height:32px;
@@ -516,15 +521,6 @@ h3 {
     left:7px;
 }
 
-h4~p {
-    color:rgb(255,255,255,0.8);
-    font-family: "inter", helvetica, sans-serif;
-    position:absolute;
-    top:95px;
-    line-height: 1.5;
-    font-size: 16px;
-}
-
 h2 {
     font-family: "Red Hat Display", Helvetica, sans-serif;
     font-size:56px;
@@ -542,7 +538,6 @@ h2 {
 }
 
 .seventhsection {
-    border: 1px solid plum;
     display: flex;
     justify-content: center;
 }
@@ -640,36 +635,75 @@ h2~p {
 
 .fifth-section-container {
     display: flex;
-    flex-direction:row;
     flex-wrap: wrap;
-    margin: 40px 0;
+    width: 100%;
+    border: 1px solid tan;
+    justify-content: space-around;
+    height: max-content;
+    margin-top: 50px;
+}
+
+.list {
+    width: 20%;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+}
+.title-list-fifth {
+    font-family:"red hat display", helvetica,sans-serif;
+    font-size:18px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight:700;
+    color:#f4f4f5;
+}
+
+aside ul li {
+    list-style-image: url("/immagini.homepage/simbol-list.svg");
+    color: #a2a2a8;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+aside ul {
+    padding: 20px;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 258px 258px 258px;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
+    width: 69%;
+    height: max-content;
+   /* grid-template-column: auto auto auto;
+    height: 150px;
+    justify-content:center;
     gap: 25px;
-    position:relative;
-    left:75px;
+    left:75px;*/
 }
 
 .fifth-section {
     margin: 50px 0;
 }
 
-.cont {
+.container-one {
+    border: 2px solid;
+    border-color: rgb(58 186 180);
+}
+.container-two {
     width: 258px;
     height: 362.18px;
-    padding:20px 27px;
     background-color: #2e2e33;
-    position:relative;
+    padding: 15px 20px;
 }
 
-#cont1 {
-    border:#3abab4 solid 2px;
-}
 
+
+h4~p {
+    color:rgb(255,255,255,0.8);
+    font-family: "inter", helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
 
 .cont>h4 {
     font-family: "red hat display", helvetica, sans-serif;
@@ -679,47 +713,60 @@ h2~p {
 }
 
 .discount {
-    background-color:#3abab460;
-    display:inline-block;
-    padding: 3px 12px;
+    background-color: #31979540;
+    width: 50px;
+    height: 20px;
+    text-align: center;
     border-radius: 15px;
-    color:#3abab4;
+    color:rgb(79 209 197);
     font-size:12px;
+    padding: 0 5px;
     font-family: "inter", helvetica, sans-serif;
-    font-weight: 800;
+    font-weight: bold;
 }
-
+.flexbtn{
+    display:flex;
+    justify-content: center;
+    margin-top: 120px;
+}
 .firstbtn {
         background-color: #3abab4;
         color: #ffffff;
         font-weight: bolder;
         border:none;
         font-size: 16px;
-        width: 150px;
-        height: 48px;
+        width: 190px;
+        height: 40px;
         text-decoration:none;
         border-radius: 4px;
         margin: 0 5px;
-        position:absolute;
-        top:287px;
-        margin: 0;
+}
+
+.secondbtn {
+    background-color:#3f3f45;
+    color: #4fd1c5;
+    font-weight: bolder;
+        border:none;
+        font-size: 16px;
+        width: 190px;
+        height: 40px;
+        text-decoration:none;
+        border-radius: 4px;
+        margin: 0 5px;
 }
 
 .firstbtn:hover {
     background-color: #4fd1c5;
 }
 
-.discount{
-    position: relative;
-    left:150px;
-    top:-25px;
+.secondbtn:hover {
+    background-color: rgb(82 82 90);
 }
-
-.list>h4 {
-    font-family:"red hat display", helvetica,sans-serif;
-    font-size:18px;
-    font-weight:700;
-    color:#f4f4f5;
+.title-container-one-fifth {
+    font-size: 20px;
+    color: #f4f4f5;
+    display: flex;
+    justify-content: space-between;
 }
 
 .dollarsign {
@@ -727,17 +774,12 @@ h2~p {
     font-size:26.08px;
     color:#a2a2a8;
     font-weight: 700;
-    position:relative;
-    top:-10px;
 }
 
 .number {
     font-family: "red hat display", helvetica, sans-serif;
     font-size: 42.08px;
     color:#f4f4f5;
-    position:relative;
-    top: -65px;
-    left:10px;
 }
 
 .sentence-second-part {
@@ -745,8 +787,6 @@ h2~p {
     font-size:16px;
     font-weight:700;
     color:#a2a2a8;
-    position:relative;
-    top: -65px;
 }
 
 .under-footer-container {
@@ -783,11 +823,11 @@ ul {
 }
 
 .social-logos{
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: max-content;
     display: flex;
     flex-direction:row;
-    justify-content:center;
+    justify-content:space-between;
 }
 
 .titlefoot {
@@ -803,8 +843,8 @@ ul {
 }
 
 .btnfooter {
-    width: 32px;
-    height: 32px;
+    width: 29px;
+    height: 29px;
     background-color:#2e2e33;
     border-radius: 50%;
     border:none;
