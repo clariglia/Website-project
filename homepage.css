@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('/resets.css');
 
 body {
     background-color: rgb(29 29 32);
+    overflow-x:hidden;
 }
 
 .firstsection {
@@ -175,23 +177,26 @@ span {
 }
 
 .containerimg {
-    width: 420px;
-    height: 700px;
+    width: 42rem;
+    height: 70rem;
     border: 1px solid blue;
     background-image:url("/immagini.homepage/iphone-mockup.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    z-index: 1;
+
 }
 
 .img-phone {
     width: 30rem;
-    height: 62rem;
+    height: 65rem;
     position: absolute;
-    top: 5rem;
+    top: 2.9rem;
     left: 6rem;
     border-radius: 2.7rem;
+    z-index: -1;
 }
 
 .sectionone {
@@ -390,39 +395,54 @@ h3 {
     justify-content: space-around;
 }
 
-.boxonevideo {
-    background-image:url("/immagini.homepage/video.png");
+.container-write__third_section {
+    height: 4rem;
+    width: 67.5rem;
+    background-color:#1d1d20c9;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+}
+.circle-write_third_section {
+    background-color: #31979540;
+    text-align: center;
+    border-radius: 1.5rem;
+    color:rgb(79 209 197);
+    font-size: 1rem;
+    padding: 0 5px;
+    font-family: "inter", helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.write-third_section {
+    font-size: 1.4rem;
+}
+.boxvideo {
     width: 32.5rem;
     height:19.4rem;
-    border: 1px solid purple;
-    background-size: cover;
     cursor:pointer;
+    display:flex;
+    align-items:flex-end;
+}
+.boxonevideo {
+    background-image:url("/immagini.homepage/video.png");
+    background-size: cover;
 }
 
 .boxtwovideo {
     background-image:url("/immagini.homepage/video.png");
-    width: 32.5rem;
-    height: 19.4rem;
-    border: 1px solid yellow;
     background-size: cover;
-    cursor:pointer;
 }
 
 .boxthreevideo {
     background-image:url("/immagini.homepage/video.png");
-    width:32.5rem;
-    height: 19.4rem;
     background-size: cover;
-    border: 1px solid green;
-    cursor:pointer;
 }
 
 .boxfourvideo {
     background-image:url("/immagini.homepage/video.png");
-    width: 32.5rem;
-    height: 19.4rem;
     background-size: cover;
-    cursor:pointer;
 }
 
 .fourthsection {
@@ -603,7 +623,6 @@ h2 {
 }
 
 .on-footer-container {
-    border: 1px solid gold;
     display: grid;
     grid-template-columns: auto auto;
     margin: 4rem 0;
