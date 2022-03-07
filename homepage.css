@@ -654,10 +654,13 @@ h2 {
     border-radius: 50%;
     width: 56px;
     height: 56px;
-    position: absolute;
-    left:215px;
-    top: -50px;
-}    
+    margin: 20px;
+}
+
+.testimonials {
+    display:flex;
+    justify-content:center;
+}
 
 .test-names {
     font-family: "red hat display", helvetica, sans-serif;
@@ -754,6 +757,15 @@ h4~p {
     font-size: 16px;
 }
 
+a>p {
+    position:absolute;
+    top:95px;
+}
+
+.tests>p {
+    margin:15px;
+}
+
 .cont>h4 {
     font-family: "red hat display", helvetica, sans-serif;
     font-size: 20px;
@@ -784,6 +796,9 @@ h4~p {
         font-weight: bolder;
         border:none;
         font-size: 16px;
+<<<<<<< HEAD
+        width: 206px;
+=======
         width: 190px;
         height: 40px;
         text-decoration:none;
@@ -798,10 +813,17 @@ h4~p {
         border:none;
         font-size: 16px;
         width: 190px;
+>>>>>>> d31cf9ef586bc4abbc34ceb84979858b054c4e88
         height: 40px;
         text-decoration:none;
         border-radius: 4px;
         margin: 0 5px;
+<<<<<<< HEAD
+        position:absolute;
+        top:295px;
+        left:20px;
+=======
+>>>>>>> d31cf9ef586bc4abbc34ceb84979858b054c4e88
 }
 
 .firstbtn:hover {
@@ -857,6 +879,9 @@ ul {
     list-style-type: none;
 }
 
+<<<<<<< HEAD
+.aside-list {
+=======
 .containerfooter {
     display: flex;
     justify-content: space-between;
@@ -900,4 +925,5 @@ ul {
 }
 .svgstyle {
     fill:#3abab4;
+>>>>>>> d31cf9ef586bc4abbc34ceb84979858b054c4e88
 }
