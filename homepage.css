@@ -6,7 +6,7 @@ body {
 }
 
 .firstsection {
-    /*padding: 0 10%;*/
+    padding: 0 10%;
     margin-bottom: 5rem;
     /*background: rgb(29,29,32);
 background: linear-gradient(55deg, rgba(29,29,32,1) 85%, rgba(58,186,180,1) 100%);*/
@@ -14,9 +14,9 @@ background: linear-gradient(55deg, rgba(29,29,32,1) 85%, rgba(58,186,180,1) 100%
 
 .svg-first_section {
     position:absolute;
-    left: 90rem;
+    left: 65%;
     z-index: -1;
-    opacity: 0.5
+    opacity: 0.5;
 }
 
 h1 {
@@ -255,13 +255,13 @@ h3 {
 
 .secondwritten {
     text-align:center;
-    margin: 50px 0;
+    margin: 5rem 0;
 
 }
 
 .carousel {
     width: 100%;
-    height: 430px;
+    height: 43rem;
     display: flex;
     justify-content: space-between;
     border: 1px solid blueviolet;
@@ -269,24 +269,24 @@ h3 {
 
 .carouselbtn {
     background-color:#3abab4;
-    border-radius: 5px;
-    width: 120px;
-    height: 40px;
-    padding: 8px 14px;
+    border-radius: 0.5rem;
+    width: 12rem;
+    height: 4rem;
+    padding: 0.8rem 1.4rem;
     color: #ffffff;
     font-weight:bold;
     font-size: 16px;
     font-family: sans-serif;
     position: absolute;
-    top: 200px;
-    right: 200px;
+    top: 20rem;
+    right: 20rem;
     border:none;
     
 }
 
 .carousel1{
-    width: 480px;
-    height: 150px;
+    width: 48rem;
+    height: 15rem;
     position: relative;
 }
 
@@ -300,12 +300,12 @@ h3 {
 
 .btnleft {
     border:none;
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
     background-color: #2e2e33;
-    padding: 18px;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    padding: 1.8rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
 }
 
 .btnleft:hover {
@@ -324,16 +324,16 @@ h3 {
     fill:#4fd1d5;
     background-color:#31979533;
     color:#4fd1d5;
-    margin: 5px 10px;
+    margin: 0.5rem 1rem;
     border:none;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: sans-serif;
     font-weight: bold;
-    padding: 8px 20px;
+    padding: 0.8rem 2rem;
     display: flex;
     justify-content: left;
-    gap:5px;
-    border-radius: 4px;
+    gap:0.5rem;
+    border-radius: 0.4rem;
 }
 
 .btnthirdsection:hover {
@@ -341,24 +341,24 @@ h3 {
 }
 
 .svgthirdsection {
-    width: 20px;
-    height: 15px;
+    width: 2rem;
+    height: 1.5rem;
     fill: #f4f4f5;
 }
 
 .btnthirdsection {
     color:#d4d4d8;
     background-color: #2e2e33;
-    margin: 5px 10px;
+    margin: 0.5rem 1rem;
     border:none;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: sans-serif;
     font-weight: bold;
-    padding: 8px 20px;
+    padding: 0.8rem 2rem;
     display: flex;
     justify-content: left;
-    gap:5px;
-    border-radius: 4px;
+    gap:0.5rem;
+    border-radius: 0.4rem;
 }
 
 .thirddisplayflex {
@@ -366,25 +366,25 @@ h3 {
     display: flex;
     flex-wrap:wrap;
     justify-content:space-around;
-    margin: 20px 20px;
+    margin: 2rem 2rem;
 }
 .listflex {
     display:flex;
     flex-direction:column;
-    width: 270px;
+    width: 27rem;
     border: 1px solid pink;
     height: max-content;
 }
 
 .thirdwritten {
     text-align:center;
-    margin: 50px 0;
+    margin: 5rem 0;
 }
 
 .containerphotovideo {
     border: 1px solid cornflowerblue;
-    width: 675px;
-    height: 510px;
+    width: 67.5rem;
+    height: 51rem;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
@@ -392,8 +392,8 @@ h3 {
 
 .boxonevideo {
     background-image:url("/immagini.homepage/video.png");
-    width: 325px;
-    height:194px;
+    width: 32.5rem;
+    height:19.4rem;
     border: 1px solid purple;
     background-size: cover;
     cursor:pointer;
@@ -401,8 +401,8 @@ h3 {
 
 .boxtwovideo {
     background-image:url("/immagini.homepage/video.png");
-    width: 325px;
-    height: 194px;
+    width: 32.5rem;
+    height: 19.4rem;
     border: 1px solid yellow;
     background-size: cover;
     cursor:pointer;
@@ -410,8 +410,8 @@ h3 {
 
 .boxthreevideo {
     background-image:url("/immagini.homepage/video.png");
-    width:325px;
-    height: 194px;
+    width:32.5rem;
+    height: 19.4rem;
     background-size: cover;
     border: 1px solid green;
     cursor:pointer;
@@ -419,8 +419,8 @@ h3 {
 
 .boxfourvideo {
     background-image:url("/immagini.homepage/video.png");
-    width: 325px;
-    height: 194px;
+    width: 32.5rem;
+    height: 19.4rem;
     background-size: cover;
     cursor:pointer;
 }
@@ -431,7 +431,7 @@ h3 {
 
 .fourthwritten {
     text-align:center;
-    margin: 50px 0;
+    margin: 5rem 0;
 }
 
 
@@ -443,47 +443,47 @@ h3 {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content:center;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 
 .three {
-    font-size: 16px;
+    font-size: 1.6rem;
     color:#4fd1d5;
     font-family: sans-serif;
     text-align:center;
     background-color: #31979540;
-    width: 50px;
-    height:50px;
-    border-radius: 50px;
+    width: 5rem;
+    height:5rem;
+    border-radius: 5rem;
     align-self: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .phone1 {
     background-image:url("/immagini.homepage/iphone-mockup.png");
     background-size: cover;
-    width: 300px;
-    height: 580px;
+    width: 30rem;
+    height: 58rem;
     border: 1px solid palevioletred;
     position:relative;
 }
 
 .photo-phone-one {
-    width: 250px;
-    height: 520px;
+    width: 25rem;
+    height: 52rem;
     position:absolute;
-    top: 45px;
-    left: 25px;
-    border-radius: 25px;
+    top: 4.5rem;
+    left: 2.5rem;
+    border-radius: 2.5rem;
 }
 .phone2 {
     background-image:url("/immagini.homepage/iphone-mockup.png");
     background-size: cover;
-    width: 300px;
-    height: 580px;
+    width: 30rem;
+    height: 58rem;
     border: 1px solid yellowgreen;
     position:relative;
 }
@@ -491,8 +491,8 @@ h3 {
 .phone3 {
     background-image:url("/immagini.homepage/iphone-mockup.png");
     background-size: cover;
-    width: 300px;
-    height: 580px;
+    width: 30rem;
+    height: 58rem;
     border: 1px solid indianred;
     position:relative;
 }
@@ -507,26 +507,26 @@ h3 {
 
 /*settima sezione*/
 .svg-colored-up {
-    width:32px;
-    height:32px;
+    width:3.2rem;
+    height:3.2rem;
     position:absolute;
-    left: 20px;
-    top: 20px;
+    left: 2rem;
+    top: 2rem;
 }
 
 .svg-colored-down {
-    width:24px;
-    height:24px;
+    width:2.4rem;
+    height:2.4rem;
     position: absolute;
-    right: 27px;
-    bottom: 20px;
+    right: 2.7rem;
+    bottom: 2rem;
 }
 
 .containercolors{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap:15px;
-    margin:85px 150px;
+    gap:1.5rem;
+    margin:8.5rem 15rem;
     position:relative;
     justify-content: center;
 }
@@ -551,24 +551,24 @@ h3 {
 .svg-colored-up~h4 {
     font-family: "Red Hat Display", Helvetica, Sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2rem;
     color: #ffffff;
     position: absolute;
-    top:60px;
+    top:6rem;
     letter-spacing: -.03em;
 }    
 
 .containercolors>a {
     position:relative;
-    height:206px;
-    width:258px;
-    padding:20px;
+    height:20.6rem;
+    width:25.8rem;
+    padding:2rem;
     box-sizing: border-box;
 }
 
 .container-arrow {
-    height:206px;
-    width:258px;
+    height:20.6rem;
+    width:25.8rem;
     position:absolute;
     right: 0;
     top:0;
@@ -583,7 +583,7 @@ h3 {
 
 h2 {
     font-family: "Red Hat Display", Helvetica, sans-serif;
-    font-size:56px;
+    font-size:5.6rem;
     color:#F4F4F5;
     text-align: center;
     letter-spacing:-0.02em;
@@ -593,8 +593,8 @@ h2 {
 
 .seventh {
     border-top: 1px solid #44444480;
-    margin: 80px 0 0 0;
-    padding: 80px 0 0 0;
+    margin: 8rem 0 0 0;
+    padding: 8rem 0 0 0;
 }
 
 .seventhsection {
@@ -603,13 +603,14 @@ h2 {
 }
 
 .on-footer-container {
+    border: 1px solid gold;
     display: grid;
     grid-template-columns: auto auto;
-    margin: 40px 0;
+    margin: 4rem 0;
     background-image: radial-gradient(circle at 1030px -35px,rgba(58,186,180,0.4) , rgba(46,46,51,255) 40%);
     align-content: center;
-    height: 232.35px;
-    width: 1200px;
+    height: 23.3rem;
+    width: /*1200px*/ 100%;
 }
 
 .on-footer-container-1>h3 {
@@ -626,9 +627,9 @@ h2 {
     color: #ffffff;
     font-weight: bolder;
     border:none;
-    font-size: 16px;
-    width: 150px;
-    height: 48px;
+    font-size: 1.6rem;
+    width: 15rem;
+    height: 4.8rem;
     text-decoration:none;
     border-radius: 4px;
     margin: 0 5px;
@@ -866,6 +867,7 @@ a>p {
 }
 
 .under-footer-container {
+    align-items:center;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -887,9 +889,9 @@ ul {
 .containerfooter {
     display: flex;
     justify-content: space-between;
-    width: 1024px;
+    width: /*1024px;*/ 60%;
     height: max-content;
-    margin: 40px 50px;
+    margin: 4rem 5rem;
 
 }
 
@@ -899,7 +901,7 @@ ul {
 }
 
 .social-logos{
-    width: 200px;
+    width: 13%;
     height: max-content;
     display: flex;
     flex-direction:row;
@@ -910,17 +912,17 @@ ul {
     font-weight: bold;
     text-decoration:none;
     color: #d4d4d8;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 .afooter {
     text-decoration:none;
     color: #d4d4d8;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .btnfooter {
-    width: 29px;
-    height: 29px;
+    width: 2.9rem;
+    height: 2.9rem;
     background-color:#2e2e33;
     border-radius: 50%;
     border:none;
