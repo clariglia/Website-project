@@ -6,45 +6,52 @@ body {
 }
 
 .firstsection {
-    padding: 0 10%;
+    /*padding: 0 10%;*/
     margin-bottom: 5rem;
+    /*background: rgb(29,29,32);
+background: linear-gradient(55deg, rgba(29,29,32,1) 85%, rgba(58,186,180,1) 100%);*/
+}
+
+.svg-first_section {
+    position:absolute;
+    left: 90rem;
+    z-index: -1;
+    opacity: 0.5
 }
 
 h1 {
     color: #f4f4f5;
-    font-size: 72px;
+    font-size: 7.2rem;
     font-family:'Red Hat Display', sans-serif;
-    line-height: 1.1
-    
-    
+    line-height: 1.1;    
 }
 
 h2 {
     color: #f4f4f5;
-    font-size: 56px;
+    font-size: 5.6rem;
     font-family: 'Red Hat Display', sans-serif;
 }
 
 p {
-    font-size: 20px;
+    font-size: 2rem;
     font-family: sans-serif;
     color: #a2a2a8; 
 }
 .aself {
     align-self:center;
-    padding: 8px 20px;
+    padding: 0.8rem 2rem;
     text-decoration:none;
     color: #d4d4d8;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 .logo {
-    width: 50px;
-    height: 30px;
+    width: 5rem;
+    height: 3rem;
     align-self:center;
     cursor:pointer;
 }
 nav {
-    margin: 1px 0px;
+    margin: 0.1rem 0rem;
     width: 100%;
     height: max-content;
     border: 1px solid red;
@@ -53,28 +60,28 @@ nav {
     justify-content:space-around;
 }
 .circle {
-    width: 44px;
-    height: 24px;
+    width: 4.4rem;
+    height: 2.4rem;
     background-color: #3abab4;
-    border-radius: 15px;
-    padding: 8px 20px;
+    border-radius: 1.5rem;
+    padding: 0.8rem 2rem;
     position: absolute;
-    top: 20px;
-    right: 70px;
+    top: 2rem;
+    right: 7rem;
 }
 
 .abtn {
-    padding: 8px 20px;
+    padding: 0.8rem 2rem;
     text-decoration:none;
     color: #d4d4d8;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 .anchornav {
     border: 1px solid blue;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: sans-serif;
-    margin: 10px 10px;
-    width: 450px;
+    margin: 1rem 1rem;
+    width: 45rem;
     display: flex;
     flex-direction:row;
     align-self:center;
@@ -85,11 +92,12 @@ nav {
     color: #ffffff;
     font-weight: bolder;
     border:none;
-    font-size: 16px;
-    width: 150px;
-    height: 40px;
+    font-size: 1.6rem;
+    width: 15rem;
+    height: 4rem;
     text-decoration:none;
-    border-radius: 4px;
+    border-radius: 0.4rem;
+    z-index: 1;
 }
 
 .btn:hover {
@@ -104,40 +112,40 @@ nav {
 
 .written {
     border: 1px solid green;
-    max-width: 900px;
+    max-width: 90rem;
     height: max-content;
     display:flex;
     flex-direction:column;
 }
 form {
-    height: 70px;
-    margin: 20px 0px;
+    height: 7rem;
+    margin: 2rem 0rem;
 }
 
 input {
-    width: 250px;
-    height: 50px;
-    border-radius: 3px;
+    width: 25rem;
+    height: 5rem;
+    border-radius: 0.3rem;
     background-color: #2e2e33;
     color: white;
-    padding: 12px 16px;
+    padding: 1.2rem 1.6rem;
     border: 1px solid #2e2e33;
 }
 
 ::placeholder {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .btntwo {
-    position: relative;
-    left: 10px;
-    height: 50px;
-    width: 170px;
-    border-radius: 5px;
+    /*position: relative;
+    left: 10px;*/
+    height: 5rem;
+    width: 17rem;
+    border-radius: 0.5rem;
     background-color:#3abab4;
     color:#f4f4f5;
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 1.6rem;
     border:none;
     cursor: pointer;
 }
@@ -147,23 +155,23 @@ input {
 }
 
  .loghino {
-    width: 10px;
-    height: 10px;
+    width: 1rem;
+    height: 1rem;
     position: relative;
-    top: 15px;
-    right: 13px;
+    top: 1.5rem;
+    right: 1.3rem;
  }
 
 .writtenlist {
     color:#a2a2a8;
-    font-size: 16px;
-    line-height: 1.3
+    font-size: 1.6rem;
+    line-height: 1.7;
 }
 
 span {
     color:#3abab4;
     font-weight: bold;
-    margin: 0 5px;
+    margin: 0 0.5rem;
 }
 
 .containerimg {
@@ -178,19 +186,19 @@ span {
 }
 
 .img-phone {
-    width: 300px;
-    height: 620px;
+    width: 30rem;
+    height: 62rem;
     position: absolute;
-    top: 50px;
-    left: 60px;
-    border-radius: 27px;
+    top: 5rem;
+    left: 6rem;
+    border-radius: 2.7rem;
 }
 
 .sectionone {
     border: 1px solid yellow;
-    margin-top: 100px;
+    margin-top: 10rem;
     width: 100%;
-    height: 800px;
+    height: 80rem;
     display: flex;
     align-items:center;
     justify-content: space-around;
@@ -198,10 +206,10 @@ span {
 }
 
 .photophone {
-    max-width: 255px;
-    border-radius: 5px;
-    top: 43px;
-    right: 33px;
+    max-width: 25.5rem;
+    border-radius: 0.5rem;
+    top: 4.3rem;
+    right: 3.3rem;
 }
 
 .containernumber {
@@ -209,8 +217,8 @@ span {
     border: 1px solid lawngreen;
     display:flex;
     justify-content: space-around;
-    margin-top: 50px;
-    padding: 0 11rem
+    margin-top: 5rem;
+    padding: 0 1.1rem;
 }
 
 .boxnumber {
@@ -232,7 +240,7 @@ h3 {
 }
 
 .secondsection {
-    margin-top: 100px;
+    margin-top: 10rem;
 }
 
 .secondsection--carousel {
@@ -326,7 +334,10 @@ h3 {
     justify-content: left;
     gap:5px;
     border-radius: 4px;
+}
 
+.btnthirdsection:hover {
+    background-color: rgb(63 63 69);
 }
 
 .svgthirdsection {
@@ -385,6 +396,7 @@ h3 {
     height:194px;
     border: 1px solid purple;
     background-size: cover;
+    cursor:pointer;
 }
 
 .boxtwovideo {
@@ -393,6 +405,7 @@ h3 {
     height: 194px;
     border: 1px solid yellow;
     background-size: cover;
+    cursor:pointer;
 }
 
 .boxthreevideo {
@@ -401,6 +414,7 @@ h3 {
     height: 194px;
     background-size: cover;
     border: 1px solid green;
+    cursor:pointer;
 }
 
 .boxfourvideo {
@@ -408,6 +422,7 @@ h3 {
     width: 325px;
     height: 194px;
     background-size: cover;
+    cursor:pointer;
 }
 
 .fourthsection {
@@ -796,9 +811,6 @@ a>p {
         font-weight: bolder;
         border:none;
         font-size: 16px;
-<<<<<<< HEAD
-        width: 206px;
-=======
         width: 190px;
         height: 40px;
         text-decoration:none;
@@ -813,17 +825,10 @@ a>p {
         border:none;
         font-size: 16px;
         width: 190px;
->>>>>>> d31cf9ef586bc4abbc34ceb84979858b054c4e88
         height: 40px;
         text-decoration:none;
         border-radius: 4px;
         margin: 0 5px;
-<<<<<<< HEAD
-        position:absolute;
-        top:295px;
-        left:20px;
-=======
->>>>>>> d31cf9ef586bc4abbc34ceb84979858b054c4e88
 }
 
 .firstbtn:hover {
@@ -879,9 +884,6 @@ ul {
     list-style-type: none;
 }
 
-<<<<<<< HEAD
-.aside-list {
-=======
 .containerfooter {
     display: flex;
     justify-content: space-between;
@@ -925,5 +927,4 @@ ul {
 }
 .svgstyle {
     fill:#3abab4;
->>>>>>> d31cf9ef586bc4abbc34ceb84979858b054c4e88
 }
