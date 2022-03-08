@@ -6,7 +6,7 @@
 	padding: 0;
 }
 
-body{
+body {
 	overflow-x: hidden;
 }
 
@@ -24,7 +24,6 @@ body{
 	letter-spacing: -0.02em;
 	opacity: 1;
 }
-
 
 .marghe h2 {
 	font-family: "Red Hat Display", sans-serif;
@@ -112,7 +111,7 @@ nav > div > button {
 	align-items: center;
 	font-size: 20px;
 	width: 15rem;
-    height: 4rem;
+	height: 4rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -135,19 +134,22 @@ header {
 	padding: none;
 }
 
-
 #background-img {
 	height: 95%;
 	width: 100%;
-	background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(29, 29, 32, 1)), url("/about.image/background\ image.jpg");
+	background-image: linear-gradient(
+			to bottom,
+			rgba(245, 246, 252, 0.52),
+			rgba(29, 29, 32, 1)
+		),
+		url("/about.image/background\ image.jpg");
 	/*background-image: url(/about.image/background\ image.jpg);*/
-	background-color: rgb(29, 29, 32)/var;
+	background-color: rgb(29, 29, 32) / var;
 	background-size: contain;
 	background-repeat: no-repeat;
 	opacity: 0.5;
 	position: absolute;
 }
-
 
 .img-header {
 	width: 51%;
@@ -179,7 +181,7 @@ header {
 	border: solid 1px #3f3f25;
 	background-color: #3f3f25;
 	position: relative;
-	top: -225px;   /* ???????????????????????? */
+	top: -225px; /* ???????????????????????? */
 }
 
 /* section 1 */
@@ -205,32 +207,32 @@ header {
 
 .svg-sec-1 > div > svg {
 	border: solid 1px red;
-	 width: 80px;
-	 border-radius: 40px;
-	 margin: auto;
- }
+	width: 80px;
+	border-radius: 40px;
+	margin: auto;
+}
 
- #svg-1 {
-	 fill: #3abab4;
- }
+#svg-1 {
+	fill: #3abab4;
+}
 
- #svg-2 {
-	 fill: #9f7aea;
- }
+#svg-2 {
+	fill: #9f7aea;
+}
 
- #svg-3 {
-	 fill: #667eea;
- }
+#svg-3 {
+	fill: #667eea;
+}
 
- #svg-4 {
-	 fill: #ed64a6;
- }
+#svg-4 {
+	fill: #ed64a6;
+}
 
- .empty-sec-1 {
-	 width: 15%;
-	 height: 0;
-	 border: solid 1px rgb(63, 63, 69);
- }
+.empty-sec-1 {
+	width: 15%;
+	height: 0;
+	border: solid 1px rgb(63, 63, 69);
+}
 
 /* section 2  --> GRID <--  */
 
@@ -245,7 +247,7 @@ header {
 }
 
 #img-1-sec-2 {
-	height: auto;	
+	height: auto;
 	grid-area: img1;
 }
 
@@ -288,7 +290,6 @@ hr {
 	margin: auto;
 	justify-content: space-around;
 }
-
 
 .sub-sec-3 {
 	text-align: center;
@@ -353,7 +354,7 @@ hr {
 .sec-3 aside > button {
 	display: flex;
 	justify-content: space-around;
-/* stile bottoni */
+	/* stile bottoni */
 	background: none;
 	color: #a2a2a8;
 	border: none;
@@ -369,7 +370,6 @@ hr {
 	height: 5px;
 	border-radius: 5px;
 	display: flex;
-
 
 	position: relative;
 }
@@ -388,7 +388,6 @@ hr {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-
 }
 
 .sub-sec-4 {
@@ -405,7 +404,6 @@ hr {
 }
 
 .sec-4 aside {
-
 	width: 20%;
 	margin: auto;
 }
@@ -470,7 +468,7 @@ hr {
 /* aside sec-4 */
 
 .title-list {
-	font-family: 'Inter' sans-serif;
+	font-family: "Inter" sans-serif;
 	font-size: 18px;
 }
 
@@ -487,78 +485,148 @@ hr {
 	list-style: none;
 	font-size: 16px;
 	color: #a2a2a8;
- }
+}
 
 .big-sec-4 li:before {
-	content: '';
+	content: "";
 	display: inline-block;
 	height: 16px;
 	width: 16px;
 	background-image: url("/about.image/sec-4.svg");
-	margin: ;
- }
+	margin: auto;
+}
 
- .big-sec-4 li:first-child {
-	 color: #66BBB4;
- }
+.big-sec-4 li:first-child {
+	color: #66bbb4;
+}
 
 /* Lorenzo */
 
-.padsidesbase {
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+/* Base */
+
+.basemargin {
+	margin: 0 10%;
 }
 
 .darkgraybgc {
 	background-color: rgb(29 29 32);
 }
 
-.automargin {
-	margin-left: 100px;
-	margin-right: 100px;
-}
-
 .padtbbase {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 }
 
-.bordertop {
+.bordertopbottom {
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 }
+
+/*Sez 5*/
 .sez5divh1p {
 	padding-bottom: 4rem;
 	text-align: center;
-	margin-left: 168px;
-	margin-right: 168px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .sez5divimg {
-	margin-left: 168px;
-	margin-right: 168px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
 }
 
-.h1sez5 {
+.h1sez5e6 {
 	font-family: "Red Hat Display", sans-serif;
 	color: white;
-	margin-bottom: 16px;
-	font-size: 56px;
+	margin-bottom: 1%;
+	font-size: 5rem;
 	line-height: 1.18;
 	font-weight: 800;
 	letter-spacing: -0.02em;
-	opacity: 1;
+	opacity: 0.9;
 }
 
-.psez5 {
+.psez5e6 {
 	color: rgb(162 162 168);
 	font-family: "Inter", sans-serif;
-	font-size: 20px;
+	font-size: 2.2rem;
 	line-height: 1.5;
 	text-align: center;
 	letter-spacing: -0.01em;
+	opacity: 0.8;
 }
 
-/* ??? */
+/* sez 6*/
+
+.sez6img {
+	width: 40%;
+}
+
+.sez6h4 {
+	font-family: "Inter", sans-serif;
+	color: rgb(212 212 216);
+	font-weight: 600;
+	font-size: 1.7rem;
+	line-height: 1.5;
+	letter-spacing: -0.02em;
+	padding: 1rem 0;
+}
+
+.sez6a {
+	color: aqua;
+}
+
+.sez6grid {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: auto;
+	grid-template-areas:
+		"sez6ele1 sez6ele2 sez6ele3 sez6ele4 sez6ele5"
+		"sez6ele6 sez6ele7 sez6ele8 sez6ele9 sez6ele10";
+	column-gap: 2%;
+	row-gap: 20%;
+}
+
+.sez6gridelement1 {
+	grid-area: sez6ele1;
+}
+
+.sez6gridelement2 {
+	grid-area: sez6ele2;
+}
+
+.sez6gridelement3 {
+	grid-area: sez6ele3;
+}
+
+.sez6gridelement4 {
+	grid-area: sez6ele4;
+}
+
+.sez6gridelement5 {
+	grid-area: sez6ele5;
+}
+
+.sez6gridelement6 {
+	grid-area: sez6ele6;
+}
+
+.sez6gridelement7 {
+	grid-area: sez6ele7;
+}
+
+.sez6gridelement8 {
+	grid-area: sez6ele8;
+}
+
+.sez6gridelement9 {
+	grid-area: sez6ele9;
+}
+
+.sez6gridelement10 {
+	grid-area: sez6ele10;
+}
 
 img[src^="about.image/team-member-"] {
 	border-radius: 9999px;
