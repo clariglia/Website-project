@@ -1,33 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="resets.css">
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="about.css" type="text/css">
-    <link rel="stylesheet" href="https://fonts.gstatic.com/s/inter/v8/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2">
-    <link rel="stylesheet" href="https://fonts.gstatic.com/s/redhatdisplay/v11/8vIQ7wUr0m80wwYf0QCXZzYzUoTg_T6h.woff2">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="resets.css" />
+		<link rel="stylesheet" href="about.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.gstatic.com/s/inter/v8/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.gstatic.com/s/redhatdisplay/v11/8vIQ7wUr0m80wwYf0QCXZzYzUoTg_T6h.woff2"
+		/>
 
-    <title>About - Appy demo</title>
-</head>
-<body class="darkgraybgc">
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">
-                        <svg class="logo" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"> <defs> <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_a"> <stop stop-color="#3ABAB4" offset="0%"></stop> <stop stop-color="#7F9CF5" offset="100%"></stop> </linearGradient> <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_b"> <stop stop-color="#3ABAB4" offset="0%"></stop> <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop> </linearGradient> </defs> <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#logo_a)"></path> <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#logo_b)"></path> </svg>
-                    </a>
-                </li>
-                <li><a href="">About</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Testimonials</a></li>
-                <li><a href="">Resources</a></li>
-            </ul>
-            <!-- LIGHT SWITCH BUTTON -->
-                <!--<div>
+		<title>About - Appy demo</title>
+	</head>
+	<body class="darkgraybgc">
+		<header>
+			<nav>
+				<ul>
+					<li>
+						<a href="#">
+							<svg
+								class="logo"
+								viewBox="0 0 32 32"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<defs>
+									<linearGradient
+										x1="26%"
+										y1="100%"
+										x2="100%"
+										y2="100%"
+										id="logo_a"
+									>
+										<stop stop-color="#3ABAB4" offset="0%"></stop>
+										<stop stop-color="#7F9CF5" offset="100%"></stop>
+									</linearGradient>
+									<linearGradient
+										x1="26%"
+										y1="100%"
+										x2="100%"
+										y2="100%"
+										id="logo_b"
+									>
+										<stop stop-color="#3ABAB4" offset="0%"></stop>
+										<stop
+											stop-color="#3ABAB4"
+											stop-opacity="0"
+											offset="100%"
+										></stop>
+									</linearGradient>
+								</defs>
+								<path
+									d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z"
+									fill="url(#logo_a)"
+								></path>
+								<path
+									d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z"
+									fill="url(#logo_b)"
+								></path>
+							</svg>
+						</a>
+					</li>
+					<li><a href="">About</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Testimonials</a></li>
+					<li><a href="">Resources</a></li>
+				</ul>
+				<!-- LIGHT SWITCH BUTTON -->
+				<!--<div>
                     <label for="light-switch">
                         <span>
                             <svg class="icon" width="44" height="24" viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg"> <g class="cx text-white" fill-rule="nonzero" opacity=".88"> <path d="M32 8a.5.5 0 00.5-.5v-1a.5.5 0 10-1 0v1a.5.5 0 00.5.5zM35.182 9.318a.5.5 0 00.354-.147l.707-.707a.5.5 0 00-.707-.707l-.707.707a.5.5 0 00.353.854zM37.5 11.5h-1a.5.5 0 100 1h1a.5.5 0 100-1zM35.536 14.829a.5.5 0 00-.707.707l.707.707a.5.5 0 00.707-.707l-.707-.707zM32 16a.5.5 0 00-.5.5v1a.5.5 0 101 0v-1a.5.5 0 00-.5-.5zM28.464 14.829l-.707.707a.5.5 0 00.707.707l.707-.707a.5.5 0 00-.707-.707zM28 12a.5.5 0 00-.5-.5h-1a.5.5 0 100 1h1a.5.5 0 00.5-.5zM28.464 9.171a.5.5 0 00.707-.707l-.707-.707a.5.5 0 00-.707.707l.707.707z"></path> <circle cx="32" cy="12" r="3"></circle> <circle fill-opacity=".4" cx="12" cy="12" r="6"></circle> <circle fill-opacity=".88" cx="12" cy="12" r="3"></circle> </g> </svg>
@@ -35,293 +79,465 @@
                     </label>
                     <input type="checkbox" name="light-switch" id="light-switch">
                 </div>-->
-            <button>
-                <a href="">Request Code</a>
-            </button>
-        </nav>
-        <div class="header">
-            <div class="img-header">
-                <h1>Make your own <span>way</span></h1>
-            </div>
-        </div>
-        <div class="break"></div>
-    </header>
-    <main>
-        <section class="sec-1">
-            <h2>We help teams by delivering the perfect tools</h2>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
-        </section>
-        <section class="svg-sec-1">
-            <div>
-                <svg class="ah ae cx text-teal-500" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg"> <path d="M56.209 8.306l5.084-5.084c2.574-2.574 7.7-3.714 9.95-1.465 2.25 2.249 1.11 7.376-1.465 9.95l-5.084 5.084 6.43 22.5-5.298 5.298-11.25-17.68-5.798 5.798-.174.14-3.725 2.343 1.192 7.153L43 45.414l-5.55-5.55-4.198 2.642a2 2 0 01-2.758-2.757l2.641-4.2L27.585 30l3.072-3.071 7.151 1.192 2.346-3.725.139-.174 5.797-5.797-3.507-2.232 1.073-1.687 3.883 2.47 7.052-7.052-6.022-1.721.55-1.923 7.09 2.026zm6.498-3.67l-20.92 20.92-2.64 4.193-6.96 11.065 15.256-9.6 20.92-20.921c1.891-1.89 2.766-5.822 1.466-7.122-1.3-1.3-5.232-.425-7.122 1.465zm.37 13.773l-7.053 7.052 10.15 15.95 2.703-2.702-5.8-20.3zm-23.89 20.363L43 42.586l.929-.93-.885-5.311-3.858 2.427zm-4.96-4.959l2.427-3.857-5.31-.885-.93.929 3.813 3.813zM43.39 1.611a5.5 5.5 0 010 7.778L36 16.78l-7.39-7.39A5.5 5.5 0 0136 1.257a5.5 5.5 0 017.39.354zM36 13.95l5.975-5.975a3.5 3.5 0 10-4.95-4.95L36 4.05l-1.025-1.025a3.5 3.5 0 00-4.95 4.95L36 13.95z"></path> </svg>
-                <p>Founded in 2017</p>
-            </div>
-            <div class="empty-sec-1"></div>
-            <div>
-                <svg class="ah ae cx text-teal-500" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg"> <path d="M56.209 8.306l5.084-5.084c2.574-2.574 7.7-3.714 9.95-1.465 2.25 2.249 1.11 7.376-1.465 9.95l-5.084 5.084 6.43 22.5-5.298 5.298-11.25-17.68-5.798 5.798-.174.14-3.725 2.343 1.192 7.153L43 45.414l-5.55-5.55-4.198 2.642a2 2 0 01-2.758-2.757l2.641-4.2L27.585 30l3.072-3.071 7.151 1.192 2.346-3.725.139-.174 5.797-5.797-3.507-2.232 1.073-1.687 3.883 2.47 7.052-7.052-6.022-1.721.55-1.923 7.09 2.026zm6.498-3.67l-20.92 20.92-2.64 4.193-6.96 11.065 15.256-9.6 20.92-20.921c1.891-1.89 2.766-5.822 1.466-7.122-1.3-1.3-5.232-.425-7.122 1.465zm.37 13.773l-7.053 7.052 10.15 15.95 2.703-2.702-5.8-20.3zm-23.89 20.363L43 42.586l.929-.93-.885-5.311-3.858 2.427zm-4.96-4.959l2.427-3.857-5.31-.885-.93.929 3.813 3.813zM43.39 1.611a5.5 5.5 0 010 7.778L36 16.78l-7.39-7.39A5.5 5.5 0 0136 1.257a5.5 5.5 0 017.39.354zM36 13.95l5.975-5.975a3.5 3.5 0 10-4.95-4.95L36 4.05l-1.025-1.025a3.5 3.5 0 00-4.95 4.95L36 13.95z"></path> </svg>
-                <p>Founded in 2017</p>
-            </div>
-            <div class="empty-sec-1"></div>
-            <div>
-                <svg class="ah ae cx text-teal-500" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg"> <path d="M56.209 8.306l5.084-5.084c2.574-2.574 7.7-3.714 9.95-1.465 2.25 2.249 1.11 7.376-1.465 9.95l-5.084 5.084 6.43 22.5-5.298 5.298-11.25-17.68-5.798 5.798-.174.14-3.725 2.343 1.192 7.153L43 45.414l-5.55-5.55-4.198 2.642a2 2 0 01-2.758-2.757l2.641-4.2L27.585 30l3.072-3.071 7.151 1.192 2.346-3.725.139-.174 5.797-5.797-3.507-2.232 1.073-1.687 3.883 2.47 7.052-7.052-6.022-1.721.55-1.923 7.09 2.026zm6.498-3.67l-20.92 20.92-2.64 4.193-6.96 11.065 15.256-9.6 20.92-20.921c1.891-1.89 2.766-5.822 1.466-7.122-1.3-1.3-5.232-.425-7.122 1.465zm.37 13.773l-7.053 7.052 10.15 15.95 2.703-2.702-5.8-20.3zm-23.89 20.363L43 42.586l.929-.93-.885-5.311-3.858 2.427zm-4.96-4.959l2.427-3.857-5.31-.885-.93.929 3.813 3.813zM43.39 1.611a5.5 5.5 0 010 7.778L36 16.78l-7.39-7.39A5.5 5.5 0 0136 1.257a5.5 5.5 0 017.39.354zM36 13.95l5.975-5.975a3.5 3.5 0 10-4.95-4.95L36 4.05l-1.025-1.025a3.5 3.5 0 00-4.95 4.95L36 13.95z"></path> </svg>
-                <p>Founded in 2017</p>
-            </div>
-            <div class="empty-sec-1"></div>
-            <div>
-                <svg class="ah ae cx text-teal-500" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg"> <path d="M56.209 8.306l5.084-5.084c2.574-2.574 7.7-3.714 9.95-1.465 2.25 2.249 1.11 7.376-1.465 9.95l-5.084 5.084 6.43 22.5-5.298 5.298-11.25-17.68-5.798 5.798-.174.14-3.725 2.343 1.192 7.153L43 45.414l-5.55-5.55-4.198 2.642a2 2 0 01-2.758-2.757l2.641-4.2L27.585 30l3.072-3.071 7.151 1.192 2.346-3.725.139-.174 5.797-5.797-3.507-2.232 1.073-1.687 3.883 2.47 7.052-7.052-6.022-1.721.55-1.923 7.09 2.026zm6.498-3.67l-20.92 20.92-2.64 4.193-6.96 11.065 15.256-9.6 20.92-20.921c1.891-1.89 2.766-5.822 1.466-7.122-1.3-1.3-5.232-.425-7.122 1.465zm.37 13.773l-7.053 7.052 10.15 15.95 2.703-2.702-5.8-20.3zm-23.89 20.363L43 42.586l.929-.93-.885-5.311-3.858 2.427zm-4.96-4.959l2.427-3.857-5.31-.885-.93.929 3.813 3.813zM43.39 1.611a5.5 5.5 0 010 7.778L36 16.78l-7.39-7.39A5.5 5.5 0 0136 1.257a5.5 5.5 0 017.39.354zM36 13.95l5.975-5.975a3.5 3.5 0 10-4.95-4.95L36 4.05l-1.025-1.025a3.5 3.5 0 00-4.95 4.95L36 13.95z"></path> </svg>
-                <p>Founded in 2017</p>
-            </div>
-        </section>
-        <section class="sec-2">
-            <div class="img-1-sec-2"></div>
-            <div class="img-2-sec-2"></div>
-            <div class="img-3-sec-2"></div>
-            <div class="img-4-sec-2"></div>
-            <div class="img-5-sec-2"></div>
-            <div class="img-6-sec-2"></div>
+				<button>
+					<a href="">Request Code</a>
+				</button>
+			</nav>
+			<div class="header">
+				<div class="img-header">
+					<h1>Make your own <span>way</span></h1>
+				</div>
+			</div>
+			<div class="break"></div>
+		</header>
+		<main>
+			<section class="sec-1">
+				<h2>We help teams by delivering the perfect tools</h2>
+				<p>
+					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+					officia deserunt mollit anim id est.
+				</p>
+			</section>
+			<section class="svg-sec-1">
+				<div>
+					<svg
+						class="ah ae cx text-teal-500"
+						viewBox="0 0 80 80"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M56.209 8.306l5.084-5.084c2.574-2.574 7.7-3.714 9.95-1.465 2.25 2.249 1.11 7.376-1.465 9.95l-5.084 5.084 6.43 22.5-5.298 5.298-11.25-17.68-5.798 5.798-.174.14-3.725 2.343 1.192 7.153L43 45.414l-5.55-5.55-4.198 2.642a2 2 0 01-2.758-2.757l2.641-4.2L27.585 30l3.072-3.071 7.151 1.192 2.346-3.725.139-.174 5.797-5.797-3.507-2.232 1.073-1.687 3.883 2.47 7.052-7.052-6.022-1.721.55-1.923 7.09 2.026zm6.498-3.67l-20.92 20.92-2.64 4.193-6.96 11.065 15.256-9.6 20.92-20.921c1.891-1.89 2.766-5.822 1.466-7.122-1.3-1.3-5.232-.425-7.122 1.465zm.37 13.773l-7.053 7.052 10.15 15.95 2.703-2.702-5.8-20.3zm-23.89 20.363L43 42.586l.929-.93-.885-5.311-3.858 2.427zm-4.96-4.959l2.427-3.857-5.31-.885-.93.929 3.813 3.813zM43.39 1.611a5.5 5.5 0 010 7.778L36 16.78l-7.39-7.39A5.5 5.5 0 0136 1.257a5.5 5.5 0 017.39.354zM36 13.95l5.975-5.975a3.5 3.5 0 10-4.95-4.95L36 4.05l-1.025-1.025a3.5 3.5 0 00-4.95 4.95L36 13.95z"
+						></path>
+					</svg>
+					<p>Founded in 2017</p>
+				</div>
+				<div class="empty-sec-1"></div>
+				<div>
+					<svg
+						class="ah ae cx text-teal-500"
+						viewBox="0 0 80 80"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M56.209 8.306l5.084-5.084c2.574-2.574 7.7-3.714 9.95-1.465 2.25 2.249 1.11 7.376-1.465 9.95l-5.084 5.084 6.43 22.5-5.298 5.298-11.25-17.68-5.798 5.798-.174.14-3.725 2.343 1.192 7.153L43 45.414l-5.55-5.55-4.198 2.642a2 2 0 01-2.758-2.757l2.641-4.2L27.585 30l3.072-3.071 7.151 1.192 2.346-3.725.139-.174 5.797-5.797-3.507-2.232 1.073-1.687 3.883 2.47 7.052-7.052-6.022-1.721.55-1.923 7.09 2.026zm6.498-3.67l-20.92 20.92-2.64 4.193-6.96 11.065 15.256-9.6 20.92-20.921c1.891-1.89 2.766-5.822 1.466-7.122-1.3-1.3-5.232-.425-7.122 1.465zm.37 13.773l-7.053 7.052 10.15 15.95 2.703-2.702-5.8-20.3zm-23.89 20.363L43 42.586l.929-.93-.885-5.311-3.858 2.427zm-4.96-4.959l2.427-3.857-5.31-.885-.93.929 3.813 3.813zM43.39 1.611a5.5 5.5 0 010 7.778L36 16.78l-7.39-7.39A5.5 5.5 0 0136 1.257a5.5 5.5 0 017.39.354zM36 13.95l5.975-5.975a3.5 3.5 0 10-4.95-4.95L36 4.05l-1.025-1.025a3.5 3.5 0 00-4.95 4.95L36 13.95z"
+						></path>
+					</svg>
+					<p>Founded in 2017</p>
+				</div>
+				<div class="empty-sec-1"></div>
+				<div>
+					<svg
+						class="ah ae cx text-teal-500"
+						viewBox="0 0 80 80"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M56.209 8.306l5.084-5.084c2.574-2.574 7.7-3.714 9.95-1.465 2.25 2.249 1.11 7.376-1.465 9.95l-5.084 5.084 6.43 22.5-5.298 5.298-11.25-17.68-5.798 5.798-.174.14-3.725 2.343 1.192 7.153L43 45.414l-5.55-5.55-4.198 2.642a2 2 0 01-2.758-2.757l2.641-4.2L27.585 30l3.072-3.071 7.151 1.192 2.346-3.725.139-.174 5.797-5.797-3.507-2.232 1.073-1.687 3.883 2.47 7.052-7.052-6.022-1.721.55-1.923 7.09 2.026zm6.498-3.67l-20.92 20.92-2.64 4.193-6.96 11.065 15.256-9.6 20.92-20.921c1.891-1.89 2.766-5.822 1.466-7.122-1.3-1.3-5.232-.425-7.122 1.465zm.37 13.773l-7.053 7.052 10.15 15.95 2.703-2.702-5.8-20.3zm-23.89 20.363L43 42.586l.929-.93-.885-5.311-3.858 2.427zm-4.96-4.959l2.427-3.857-5.31-.885-.93.929 3.813 3.813zM43.39 1.611a5.5 5.5 0 010 7.778L36 16.78l-7.39-7.39A5.5 5.5 0 0136 1.257a5.5 5.5 0 017.39.354zM36 13.95l5.975-5.975a3.5 3.5 0 10-4.95-4.95L36 4.05l-1.025-1.025a3.5 3.5 0 00-4.95 4.95L36 13.95z"
+						></path>
+					</svg>
+					<p>Founded in 2017</p>
+				</div>
+				<div class="empty-sec-1"></div>
+				<div>
+					<svg
+						class="ah ae cx text-teal-500"
+						viewBox="0 0 80 80"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M56.209 8.306l5.084-5.084c2.574-2.574 7.7-3.714 9.95-1.465 2.25 2.249 1.11 7.376-1.465 9.95l-5.084 5.084 6.43 22.5-5.298 5.298-11.25-17.68-5.798 5.798-.174.14-3.725 2.343 1.192 7.153L43 45.414l-5.55-5.55-4.198 2.642a2 2 0 01-2.758-2.757l2.641-4.2L27.585 30l3.072-3.071 7.151 1.192 2.346-3.725.139-.174 5.797-5.797-3.507-2.232 1.073-1.687 3.883 2.47 7.052-7.052-6.022-1.721.55-1.923 7.09 2.026zm6.498-3.67l-20.92 20.92-2.64 4.193-6.96 11.065 15.256-9.6 20.92-20.921c1.891-1.89 2.766-5.822 1.466-7.122-1.3-1.3-5.232-.425-7.122 1.465zm.37 13.773l-7.053 7.052 10.15 15.95 2.703-2.702-5.8-20.3zm-23.89 20.363L43 42.586l.929-.93-.885-5.311-3.858 2.427zm-4.96-4.959l2.427-3.857-5.31-.885-.93.929 3.813 3.813zM43.39 1.611a5.5 5.5 0 010 7.778L36 16.78l-7.39-7.39A5.5 5.5 0 0136 1.257a5.5 5.5 0 017.39.354zM36 13.95l5.975-5.975a3.5 3.5 0 10-4.95-4.95L36 4.05l-1.025-1.025a3.5 3.5 0 00-4.95 4.95L36 13.95z"
+						></path>
+					</svg>
+					<p>Founded in 2017</p>
+				</div>
+			</section>
+			<section class="sec-2">
+				<div class="img-1-sec-2"></div>
+				<div class="img-2-sec-2"></div>
+				<div class="img-3-sec-2"></div>
+				<div class="img-4-sec-2"></div>
+				<div class="img-5-sec-2"></div>
+				<div class="img-6-sec-2"></div>
 
-
-
-
-
-
-        <!--<img src="https://preview.cruip.com/appy/images/about-grid-01.jpg" alt="working people">
+				<!--<img src="https://preview.cruip.com/appy/images/about-grid-01.jpg" alt="working people">
             <img src="https://preview.cruip.com/appy/images/about-grid-02.jpg" alt="cat">
             <img src="https://preview.cruip.com/appy/images/about-grid-03.jpg" alt="people with pc">
             <img src="https://preview.cruip.com/appy/images/about-grid-04.jpg" alt="co-working">
             <img src="https://preview.cruip.com/appy/images/about-grid-05.jpg" alt="break">
             <img src="https://preview.cruip.com/appy/images/about-grid-06.jpg" alt="punch today in the face">
         -->
-
-                
-        </section>
-        <hr>
-        <section class="sec-3">
-            <div class="sub-sec-3">
-                <h2>What we’ve achieved</h2>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
-            </div>
-            <div class="big-sec-3">
-                <aside>
-                    
-                        <button>
-                            2020
-                            <div><span></span></div>
-                        </button>
-                        <button>
-                            2019
-                            <div><span></span></div>
-                        </button>
-                        <button>
-                            2018
-                            <div><span></span></div>
-                        </button>
-                        <button>
-                            2017
-                            <div><span></span></div>
-                        </button>
-                        <button>
-                            2016
-                                <div></div>
-                        </button>
-                    
-                </aside>
-                <div class="art-sec-3">
-                    <article>
-                        <h3>Launched Appy Business</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        <a href="">Learn more <svg class="icon-sec-3" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"> <path class="cx" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z"></path> </svg></a><img src="" alt="">
-                    </article>
-                    <article>
-                        <h3>Launched Appy Business</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        <a href="">Learn more <svg class="icon-sec-3" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"> <path class="cx" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z"></path> </svg></a><img src="" alt="">
-                    </article>
-                    <article>
-                        <h3>Launched Appy Business</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        <a href="">Learn more <svg class="icon-sec-3" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"> <path class="cx" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z"></path> </svg></a><img src="" alt="">
-                    </article>
-                    <article>
-                        <h3>Launched Appy Business</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        <a href="">Learn more <svg class="icon-sec-3" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"> <path class="cx" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z"></path> </svg></a><img src="" alt="">
-                    </article>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section class="sec-4">
-            <div class="sub-sec-4">
-                <h2>Explore roles at Appy’s offices around the world</h2>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt <br> mollit anim id est.</p>
-            </div>
-                <div class="big-sec-4">
-                    <aside>
-                        <h2 class="title-list">Locations</h2>
-                        <ul>
-                            <li>All locations (44)</li>
-                            <li>London, UK (14)</li>
-                            <li>Milan, Italy (22)</li>
-                            <li>New York, NYC (4)</li>
-                            <li>Berlin, DE (12)</li>
-                        </ul>
-                    </aside>
-                    <section class="grid-sec-4">
-                        <div class="slides" id="sl-1">
-                            <h3>Development</h3>
-                            <p>4 positions</p>
-                        </div>
-                        <div class="slides"  id="sl-2">
-                            <h3>Product&Design</h3>
-                            <p>10 positions</p>
-                        </div>
-                        <div class="slides" id="sl-3">
-                            <h3>Marketing</h3>
-                            <p>2 positions</p>
-                        </div>
-                        <div class="slides" id="sl-4">
-                            <h3>Data Science</h3>
-                            <p>4 positions</p>
-                        </div>
-                        <div class="slides" id="sl-5">
-                            <h3>Internal Systems</h3>
-                            <p>0 positions</p>
-                        </div>
-                        <div class="slides" id="sl-6">                                <h3>Administrative</h3>
-                            <p>0 positions</p>
-                        </div>
-                    </section>
-                </div>
-            </section>
-        <section> <!-- Sezione 5-->
-            <div class="padsidesbase automargin"> 
-                <div class="padtbbase bordertop">
-                    <div class="sez5divh1p">
-                        <h2 class="h1sez5">Custom built ecosystem</h2>
-                        <p class="psez5">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
-                    </div>
-                    <div align="center" class="sez5divimg">
-                    <img src="about.image/screenshot-sez5.jpg" alt="Immagine copiata">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section> <!-- Sezione 6-->
-            <div class="padsidesbase automargin">
-                <div class="padtbbase bordertop">
-                    <div class="sez5divh1p">
-                        <h2 class="h1sez5">Your future teammates</h2>
-                        <p class="psez5">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
-                    </div>
-                    <div align="center"> 
-                        <div>
-                            <div>
-                                <img src="about.image/team-member-01.jpg" alt="Foto membro 1">
-                                <h4>Sergey Filkov</h4>
-                                <a href="#"></a>
-                            </div>
-                            <div>
-                                <img src="about.image/team-member-02.jpg" alt="Foto membro 2">
-                                <h4>Mary Champ</h4>
-                                <a href="#"></a>
-                            </div>
-                            <div>
-                                <img src="about.image/team-member-03.jpg" alt="Foto membro 3">
-                                <h4>Mark Varsano</h4>
-                                <a href="#"></a>
-                            </div>
-                            <div>
-                                <img src="about.image/team-member-04.jpg" alt="Foto membro 4">
-                                <h4>George Hurley</h4>
-                                <a href="#"></a>
-                            </div>
-                            <div>
-                                <img src="about.image/team-member-05.jpg" alt="Foto membro 5">
-                                <h4>Ellie Lepisov</h4>
-                                <a href="#"></a>
-                            </div>
-                            <div>
-                                <img src="about.image/team-member-06.jpg" alt="Foto membro 6">
-                                <h4>Connor Bal</h4>
-                                <a href="#"></a>
-                            </div>
-                            <div>
-                                <img src="about.image/team-member-07.jpg" alt="Foto membro 7">
-                                <h4>Marko Sharma</h4>
-                                <a href="#"></a>
-                            </div>
-                            <div>
-                                <img src="about.image/team-member-08.jpg" alt="Foto membro 8">
-                                <h4>Mick Esposito</h4>
-                                <a href="#"></a>
-                            </div>
-                            <div>
-                                <img src="about.image/team-member-09.jpg" alt="Foto membro 9">
-                                <h4>Daniel Smith</h4>
-                                <a href="#"></a>
-                            </div>
-                            <div>
-                                <img src="about.image/team-member-10.jpg" alt="Foto membro 10">
-                                <h4>Patricia Long</h4>
-                                <a href="#"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <a href="logo"><img src="" alt="logo"></a>
-        <div class="footer-col">
-            <h3>PRODUCTS</h3>
-            <ul>
-                <li><a href="">Drag And Drop</a></li>
-                <li><a href="">Visual Studio X</a></li>
-                <li><a href="">Easy content</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h3>RESOURCES</h3>
-            <ul>
-                <li><a href="">Industries and tools</a></li>
-                <li><a href="">Use cases</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Online events</a></li>
-                <li><a href="">Nostrud exercitatio</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h3>COMPANY</h3>
-            <ul>
-                <li><a href="">Diversity & inclusion</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Press</a></li>
-                <li><a href="">Customer stories	</a></li>
-                <li><a href="">Online communities</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h3>SUPPORT</h3> 
-            <ul>
-                <li><a href="">Documentation</a></li>
-                <li><a href="">Tutorials & guides</a></li>
-                <li><a href="">Webinars</a></li>
-                <li><a href="">Open-source</a></li>
-            </ul>
-        </div>
-        <section>
-            <p>&copy 2020 Appy. All rights reserved.</p>
-            <p><a href="">Terms</a>  &middot  <a href=""> Privacy Policy</a></p>
-            <div class="icons">
-                <a href="https://twitter.com/"><img src="" alt="twitter"></a>
-                <a href="https://github.com/"><img src="" alt="github"></a>
-                <a href="https://www.facebook.com/"><img src="" alt="facebook"></a>
-                <a href="https://www.instagram.com/"><img src="" alt="instagram"></a>
-                <a href="https://www.linkedin.com/"><img src="" alt="linkedin"></a>
-            </div>
-        </section>
-    </footer>
-</body>
+			</section>
+			<hr />
+			<section class="sec-3">
+				<div class="sub-sec-3">
+					<h2>What we’ve achieved</h2>
+					<p>
+						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+						officia deserunt mollit anim id est.
+					</p>
+				</div>
+				<div class="big-sec-3">
+					<aside>
+						<button>
+							2020
+							<div><span></span></div>
+						</button>
+						<button>
+							2019
+							<div><span></span></div>
+						</button>
+						<button>
+							2018
+							<div><span></span></div>
+						</button>
+						<button>
+							2017
+							<div><span></span></div>
+						</button>
+						<button>
+							2016
+							<div></div>
+						</button>
+					</aside>
+					<div class="art-sec-3">
+						<article>
+							<h3>Launched Appy Business</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt.
+							</p>
+							<a href=""
+								>Learn more
+								<svg
+									class="icon-sec-3"
+									viewBox="0 0 12 12"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										class="cx"
+										d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z"
+									></path></svg></a
+							><img src="" alt="" />
+						</article>
+						<article>
+							<h3>Launched Appy Business</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt.
+							</p>
+							<a href=""
+								>Learn more
+								<svg
+									class="icon-sec-3"
+									viewBox="0 0 12 12"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										class="cx"
+										d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z"
+									></path></svg></a
+							><img src="" alt="" />
+						</article>
+						<article>
+							<h3>Launched Appy Business</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt.
+							</p>
+							<a href=""
+								>Learn more
+								<svg
+									class="icon-sec-3"
+									viewBox="0 0 12 12"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										class="cx"
+										d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z"
+									></path></svg></a
+							><img src="" alt="" />
+						</article>
+						<article>
+							<h3>Launched Appy Business</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt.
+							</p>
+							<a href=""
+								>Learn more
+								<svg
+									class="icon-sec-3"
+									viewBox="0 0 12 12"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										class="cx"
+										d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z"
+									></path></svg></a
+							><img src="" alt="" />
+						</article>
+					</div>
+				</div>
+			</section>
+			<hr />
+			<section class="sec-4">
+				<div class="sub-sec-4">
+					<h2>Explore roles at Appy’s offices around the world</h2>
+					<p>
+						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+						officia deserunt <br />
+						mollit anim id est.
+					</p>
+				</div>
+				<div class="big-sec-4">
+					<aside>
+						<h2 class="title-list">Locations</h2>
+						<ul>
+							<li>All locations (44)</li>
+							<li>London, UK (14)</li>
+							<li>Milan, Italy (22)</li>
+							<li>New York, NYC (4)</li>
+							<li>Berlin, DE (12)</li>
+						</ul>
+					</aside>
+					<section class="grid-sec-4">
+						<div class="slides" id="sl-1">
+							<h3>Development</h3>
+							<p>4 positions</p>
+						</div>
+						<div class="slides" id="sl-2">
+							<h3>Product&Design</h3>
+							<p>10 positions</p>
+						</div>
+						<div class="slides" id="sl-3">
+							<h3>Marketing</h3>
+							<p>2 positions</p>
+						</div>
+						<div class="slides" id="sl-4">
+							<h3>Data Science</h3>
+							<p>4 positions</p>
+						</div>
+						<div class="slides" id="sl-5">
+							<h3>Internal Systems</h3>
+							<p>0 positions</p>
+						</div>
+						<div class="slides" id="sl-6">
+							<h3>Administrative</h3>
+							<p>0 positions</p>
+						</div>
+					</section>
+				</div>
+			</section>
+			<section>
+				<!-- Sezione 5-->
+					<div class="padtbbase bordertopbottom">
+						<div class="sez5divh1p">
+							<h2 class="h1sez5e6">Custom built ecosystem</h2>
+							<p class="psez5e6">
+								Excepteur sint occaecat cupidatat non proident, sunt in culpa
+								qui officia deserunt mollit anim id est.
+							</p>
+						</div>
+						<div align="center" class="sez5divimg">
+							<img
+								src="about.image/screenshot-sez5.jpg"
+								alt="Immagine copiata"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<!-- Sezione 6-->
+					<div class="padtbbase">
+						<div class="sez5divh1p">
+							<h2 class="h1sez5e6">Your future teammates</h2>
+							<p class="psez5e6">
+								Excepteur sint occaecat cupidatat non proident, sunt in culpa
+								qui officia deserunt mollit anim id est.
+							</p>
+						</div>
+						<div align="center" style="margin-bottom: 5%">
+							<div class="sez6grid">
+								<div class="sez6gridelement1">
+									<img
+										class="sez6img"
+										src="about.image/team-member-01.jpg"
+										alt="Foto membro 1"
+									/>
+									<h4 class="sez6h4">Sergey Filkov</h4>
+									<a class="sez6a" href="#">
+										<svg width="16" height="13" xmlns="http://w3.org/2000/svg">
+											<path d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
+											fill="#1DA1F2" fill-rule="nonzero"></path>
+										</svg> 
+									</a>
+								</div>
+								<div class="sez6gridelement2">
+									<img
+										class="sez6img"
+										src="about.image/team-member-02.jpg"
+										alt="Foto membro 2"
+									/>
+									<h4 class="sez6h4">Mary Champ</h4>
+									<a class="sez6a" href="#"><svg width="16" height="13" xmlns="http://w3.org/2000/svg">
+										<path d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
+										fill="#1DA1F2" fill-rule="nonzero"></path>
+									</svg> </a>
+								</div>
+								<div class="sez6gridelement3">
+									<img
+										class="sez6img"
+										src="about.image/team-member-03.jpg"
+										alt="Foto membro 3"
+									/>
+									<h4 class="sez6h4">Mark Varsano</h4>
+									<a class="sez6a" href="#"><svg width="16" height="13" xmlns="http://w3.org/2000/svg">
+										<path d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
+										fill="#1DA1F2" fill-rule="nonzero"></path>
+									</svg> </a>
+								</div>
+								<div class="sez6gridelement4">
+									<img
+										class="sez6img"
+										src="about.image/team-member-04.jpg"
+										alt="Foto membro 4"
+									/>
+									<h4 class="sez6h4">George Hurley</h4>
+									<a class="sez6a" href="#"><svg width="16" height="13" xmlns="http://w3.org/2000/svg">
+										<path d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
+										fill="#1DA1F2" fill-rule="nonzero"></path>
+									</svg> </a>
+								</div>
+								<div class="sez6gridelement5">
+									<img
+										class="sez6img"
+										src="about.image/team-member-05.jpg"
+										alt="Foto membro 5"
+									/>
+									<h4 class="sez6h4">Ellie Lepisov</h4>
+									<a class="sez6a" href="#"><svg width="16" height="13" xmlns="http://w3.org/2000/svg">
+										<path d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
+										fill="#1DA1F2" fill-rule="nonzero"></path>
+									</svg> </a>
+								</div>
+								<div class="sez6gridelement6">
+									<img
+										class="sez6img"
+										src="about.image/team-member-06.jpg"
+										alt="Foto membro 6"
+									/>
+									<h4 class="sez6h4">Connor Bal</h4>
+									<a class="sez6a" href="#"><svg width="16" height="13" xmlns="http://w3.org/2000/svg">
+										<path d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
+										fill="#1DA1F2" fill-rule="nonzero"></path>
+									</svg> </a>
+								</div>
+								<div class="sez6gridelement7">
+									<img
+										class="sez6img"
+										src="about.image/team-member-07.jpg"
+										alt="Foto membro 7"
+									/>
+									<h4 class="sez6h4">Marko Sharma</h4>
+									<a class="sez6a" href="#"><svg width="16" height="13" xmlns="http://w3.org/2000/svg">
+										<path d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
+										fill="#1DA1F2" fill-rule="nonzero"></path>
+									</svg> </a>
+								</div>
+								<div class="sez6gridelement8">
+									<img
+										class="sez6img"
+										src="about.image/team-member-08.jpg"
+										alt="Foto membro 8"
+									/>
+									<h4 class="sez6h4">Mick Esposito</h4>
+									<a class="sez6a" href="#"><svg width="16" height="13" xmlns="http://w3.org/2000/svg">
+										<path d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
+										fill="#1DA1F2" fill-rule="nonzero"></path>
+									</svg> </a>
+								</div>
+								<div class="sez6gridelement9">
+									<img
+										class="sez6img"
+										src="about.image/team-member-09.jpg"
+										alt="Foto membro 9"
+									/>
+									<h4 class="sez6h4">Daniel Smith</h4>
+									<a class="sez6a" href="#"><svg width="16" height="13" xmlns="http://w3.org/2000/svg">
+										<path d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
+										fill="#1DA1F2" fill-rule="nonzero"></path>
+									</svg> </a>
+								</div>
+								<div class="sez6gridelement10">
+									<img
+										class="sez6img"
+										src="about.image/team-member-10.jpg"
+										alt="Foto membro 10"
+									/>
+									<h4 class="sez6h4">Patricia Long</h4>
+									<a class="sez6a" href="#"><svg width="16" height="13" xmlns="http://w3.org/2000/svg">
+										<path d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
+										fill="#1DA1F2" fill-rule="nonzero"></path>
+									</svg> </a>
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+		</main>
+		<footer>
+			<a href="logo"><img src="" alt="logo" /></a>
+			<div class="footer-col">
+				<h3>PRODUCTS</h3>
+				<ul>
+					<li><a href="">Drag And Drop</a></li>
+					<li><a href="">Visual Studio X</a></li>
+					<li><a href="">Easy content</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h3>RESOURCES</h3>
+				<ul>
+					<li><a href="">Industries and tools</a></li>
+					<li><a href="">Use cases</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Online events</a></li>
+					<li><a href="">Nostrud exercitatio</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h3>COMPANY</h3>
+				<ul>
+					<li><a href="">Diversity & inclusion</a></li>
+					<li><a href="">About us</a></li>
+					<li><a href="">Press</a></li>
+					<li><a href="">Customer stories </a></li>
+					<li><a href="">Online communities</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h3>SUPPORT</h3>
+				<ul>
+					<li><a href="">Documentation</a></li>
+					<li><a href="">Tutorials & guides</a></li>
+					<li><a href="">Webinars</a></li>
+					<li><a href="">Open-source</a></li>
+				</ul>
+			</div>
+			<section>
+				<p>&copy 2020 Appy. All rights reserved.</p>
+				<p><a href="">Terms</a> &middot <a href=""> Privacy Policy</a></p>
+				<div class="icons">
+					<a href="https://twitter.com/"><img src="" alt="twitter" /></a>
+					<a href="https://github.com/"><img src="" alt="github" /></a>
+					<a href="https://www.facebook.com/"><img src="" alt="facebook" /></a>
+					<a href="https://www.instagram.com/"
+						><img src="" alt="instagram"
+					/></a>
+					<a href="https://www.linkedin.com/"><img src="" alt="linkedin" /></a>
+				</div>
+			</section>
+		</footer>
+	</body>
 </html>
