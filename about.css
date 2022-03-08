@@ -560,7 +560,7 @@ hr {
 /* sez 6*/
 
 .sez6img {
-	width: 40%;
+	width: 35%;
 }
 
 .sez6h4 {
@@ -586,46 +586,78 @@ hr {
 		"sez6ele6 sez6ele7 sez6ele8 sez6ele9 sez6ele10";
 	column-gap: 2%;
 	row-gap: 20%;
+	align-items: center;
+	justify-content: center;
 }
 
 .sez6gridelement1 {
 	grid-area: sez6ele1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .sez6gridelement2 {
 	grid-area: sez6ele2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .sez6gridelement3 {
 	grid-area: sez6ele3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .sez6gridelement4 {
 	grid-area: sez6ele4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .sez6gridelement5 {
 	grid-area: sez6ele5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .sez6gridelement6 {
 	grid-area: sez6ele6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .sez6gridelement7 {
 	grid-area: sez6ele7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .sez6gridelement8 {
 	grid-area: sez6ele8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .sez6gridelement9 {
 	grid-area: sez6ele9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .sez6gridelement10 {
 	grid-area: sez6ele10;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 img[src^="about.image/team-member-"] {
