@@ -142,7 +142,7 @@ header {
 			rgba(245, 246, 252, 0.52),
 			rgba(29, 29, 32, 1)
 		),
-		url("/about.image/background\ image.jpg");
+		url("/about.image/background-image.jpg");
 	/*background-image: url(/about.image/background\ image.jpg);*/
 	background-color: rgb(29, 29, 32) / var;
 	background-size: contain;
@@ -502,7 +502,7 @@ hr {
 
 /* Lorenzo */
 
-/* Base */
+/* Base&Generali */
 
 .basemargin {
 	margin: 0 10%;
@@ -520,20 +520,6 @@ hr {
 .bordertopbottom {
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
-}
-
-/*Sez 5*/
-.sez5divh1p {
-	padding-bottom: 4rem;
-	text-align: center;
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-}
-.sez5divimg {
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
 }
 
 .h1sez5e6 {
@@ -557,6 +543,20 @@ hr {
 	opacity: 0.8;
 }
 
+/*Sez 5*/
+.sez5divh1p {
+	padding-bottom: 4rem;
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sez5divimg {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
 /* sez 6*/
 
 .sez6img {
@@ -575,6 +575,10 @@ hr {
 
 .sez6a {
 	color: aqua;
+}
+
+img[src^="about.image/team-member-"] {
+	border-radius: 9999px;
 }
 
 .sez6grid {
@@ -660,6 +664,8 @@ hr {
 	align-items: center;
 }
 
+/* Sezione 7*/
+
 .sez7wrapper {
 	padding: 7% 12%;
 	background-color: rgb(46 46 51);
@@ -686,12 +692,13 @@ hr {
 	border-radius: 0.25rem;
 	border-width: 1px;
 	border-color: transparent;
-	font-size: 200%;
+	font-size: 1.5rem;
 	font-weight: 500;
 	line-height: 1.375;
+	font-family: "Inter", sans-serif;
 	color: rgb(255 255 255);
 	background-color: rgb(58 186 180);
-	padding: 1rem 2.5rem;
+	padding: 1rem 3rem;
 	letter-spacing: -0.01em;
 	cursor: pointer;
 	text-decoration: none;
@@ -701,8 +708,4 @@ hr {
 	margin-top: 2rem;
 	display: flex;
 	justify-content: center;
-}
-
-img[src^="about.image/team-member-"] {
-	border-radius: 9999px;
 }
