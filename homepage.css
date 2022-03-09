@@ -53,7 +53,7 @@ p {
     cursor:pointer;
 }
 nav {
-    margin: 0.1rem 0rem;
+    margin: 0.3rem 0 0 0;
     width: 100%;
     height: max-content;
     display: flex; 
@@ -193,13 +193,24 @@ span {
 .containerimg {
     width: 30rem;
     height: max-content;
-    border: 1px solid blue;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
-
 }
+
+.play-button {
+    position:absolute;
+    top: 24rem;
+    left: 10rem;
+    cursor:pointer;
+}
+
+.play-button:hover {
+    opacity: .7;
+    transition: .3s;
+}
+
 /*todo  */
 .img-phone {
     width: 85%;
@@ -243,7 +254,6 @@ span {
     background-color: rgb(46 46 51);
     width: 22rem;
     height: 14.4rem;
-    /*padding: 3.2rem 0.4rem;*/
     display:flex;
     align-items:center;
     flex-direction:column;
@@ -262,11 +272,13 @@ h3 {
 }
 
 .secondsection {
-    margin-top: 10rem;
+    margin-top: 15rem;
+    border-top:1px solid #77777780;
+    background: rgb(29,29,32);
+    background: linear-gradient(4deg, rgba(29,29,32,1) 55%, rgba(33,33,36,1) 64%);
 }
 
 .secondsection--carousel {
-    border: 1px solid orangered;
     width: 100%;
     height: max-content;
     display:flex;
@@ -287,7 +299,12 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    border: 1px solid blueviolet;
+}
+
+.carousel_with_btn {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carouselbtn {
@@ -300,23 +317,25 @@ h3 {
     font-weight:bold;
     font-size: 16px;
     font-family: sans-serif;
-    position: absolute;
-    top: 20rem;
-    right: 20rem;
     border:none;
+    cursor: pointer;
+}
+
+.carouselbtn:hover {
+    background-color: #4fd1c5;
 }
 
 .carousel1{
-    border: 1px solid blue;
     box-sizing: border-box;
     width: 100%; 
     height: 57vh;
-    position: relative;
+
 }
 
 .imgcarousel1 {
     background-image:url("/immagini.homepage/carousel-item-02.jpg");
     background-size: cover;
+    opacity: .32;
 }
 
 .imgcarousel2 {
@@ -327,14 +346,15 @@ h3 {
 .imgcarousel3 {
     background-image:url("/immagini.homepage/carousel-item-04.jpg");
     background-size:cover;
+    opacity: .32;
 }
 
 .containerbtn {
-    border: 1px solid burlywood;
     width: 70%;
     height: max-content;
     display:flex;
     justify-content: space-between;
+    margin-bottom: 5rem;
 }
 
 .btnleft {
@@ -345,6 +365,7 @@ h3 {
     padding: 1.8rem;
     margin-top: 4rem;
     margin-bottom: 5rem;
+    cursor:pointer;
 }
 
 .btnleft:hover {
@@ -358,6 +379,9 @@ h3 {
 
 .thirdsection {
     padding: 0 10%;
+    border-top:1px solid #77777780;
+    background: rgb(29,29,32);
+    background: linear-gradient(4deg, rgba(29,29,32,1) 55%, rgba(33,33,36,1) 64%);
 }
 .btnthirdsectionone {
     fill:#4fd1d5;
@@ -435,6 +459,7 @@ h3 {
     justify-content: space-around;
     align-items:center;
 }
+
 .circle-write_third_section {
     background-color: #31979540;
     text-align: center;
@@ -478,6 +503,11 @@ h3 {
 
 .fourthsection {
     padding: 0 10%;
+    border-top:1px solid #77777780;
+    background: rgb(29,29,32);
+    background: linear-gradient(4deg, rgba(29,29,32,1) 55%, rgba(33,33,36,1) 64%);
+    z-index: -1;
+
 }
 
 .fourthwritten {
@@ -487,14 +517,16 @@ h3 {
 
 
 .containerphone {
-    border: 1px solid fuchsia;
     width: max-content;
     height: max-content;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content:center;
-    margin-bottom: 5rem;
+    align-items:center;
+    margin-bottom: 20rem;
+    padding: 0 3rem;
+    position:relative;
 }
 
 .three {
@@ -514,37 +546,30 @@ h3 {
 }
 
 .phone1 {
-    background-image:url("/immagini.homepage/iphone-mockup.png");
-    background-size: cover;
-    width: 30rem;
-    height: 58rem;
-    border: 1px solid palevioletred;
+    width: 35rem;
+    height: 55rem;
     position:relative;
+    z-index: 1;
 }
 
 .photo-phone-one {
-    width: 25rem;
-    height: 52rem;
+    width: 30rem;
+    height: 63rem;
     position:absolute;
-    top: 4.5rem;
+    top: 2.6rem;
     left: 2.5rem;
     border-radius: 2.5rem;
+    z-index:-1;
 }
 .phone2 {
-    background-image:url("/immagini.homepage/iphone-mockup.png");
-    background-size: cover;
     width: 30rem;
     height: 58rem;
-    border: 1px solid yellowgreen;
     position:relative;
 }
 
 .phone3 {
-    background-image:url("/immagini.homepage/iphone-mockup.png");
-    background-size: cover;
     width: 30rem;
     height: 58rem;
-    border: 1px solid indianred;
     position:relative;
 }
 
@@ -642,9 +667,7 @@ h2 {
 }    
 
 .seventh {
-    border-top: 1px solid #44444480;
-    margin: 8rem 0 0 0;
-    padding: 8rem 0 0 0;
+    margin: 9rem 0 0 0;
 }
 
 .seventhsection {
@@ -655,11 +678,11 @@ h2 {
 .on-footer-container {
     display: grid;
     grid-template-columns: auto auto;
-    margin: 4rem 0;
+    margin: auto;
     background-image: radial-gradient(circle at 1030px -35px,rgba(58,186,180,0.4) , rgba(46,46,51,255) 40%);
     align-content: center;
     height: 23.3rem;
-    width: /*1200px*/ 100%;
+    width: /*1200px*/ 70%;
 }
 
 .on-footer-container-1>h3 {
@@ -693,16 +716,22 @@ h2 {
     height:32px;
 }
 
+.border-top {
+    border-top:1px solid #77777780;
+    width: 70%;
+    margin: auto;
+}
+
 .articles-with-photos {
+    width: 80%;
     display:grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: center;
-    column-gap: 100px;
-    row-gap: 100px;
-    margin: 180px 0;
+    column-gap: 10rem;
+    row-gap: 10rem;
+    margin: 8rem auto;
     position:relative;
-    border-top: #77777780 solid 1px;
 }
 
 .test-quotes {
@@ -721,10 +750,17 @@ h2 {
     height: 56px;
     margin: 20px;
 }
+.svg_sec-sixth {
+    position:absolute;
+    right: 16rem;
+    top: 1rem;
+    fill: rgb(158, 116, 238);
+}
 
 .testimonials {
     display:flex;
     justify-content:center;
+    position:relative;
 }
 
 .test-names {
@@ -749,6 +785,9 @@ h2~p {
     line-height:1.5;
 }
 
+.border-top_fifth-sec {
+    border-top:1px solid #77777780;
+}
 
 .fifth-section-container {
     display: flex;
@@ -757,6 +796,7 @@ h2~p {
     justify-content: space-around;
     height: max-content;
     margin-top: 50px;
+    padding: 0 25rem;
 }
 
 .list {
@@ -810,6 +850,7 @@ aside ul {
     height: 362.18px;
     background-color: #2e2e33;
     padding: 15px 20px;
+    margin-bottom: 4rem;
 }
 
 
@@ -915,12 +956,14 @@ a>p {
 }
 
 .under-footer-container {
+    width: 90%;
+    margin: auto;
     align-items:center;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 2rem;
 }
 
 .footer-col {
@@ -937,7 +980,7 @@ ul {
 .containerfooter {
     display: flex;
     justify-content: space-between;
-    width: /*1024px;*/ 60%;
+    width: 60%;
     height: max-content;
     margin: 4rem 5rem;
 
@@ -946,6 +989,7 @@ ul {
 .flexfoot {
     display: flex;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 .social-logos{
@@ -974,6 +1018,7 @@ ul {
     background-color:#2e2e33;
     border-radius: 50%;
     border:none;
+    cursor:pointer;
 }
 .svgstyle {
     fill:#3abab4;
