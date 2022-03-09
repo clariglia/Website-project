@@ -669,7 +669,11 @@ img[src^="about.image/team-member-"] {
 .sez7wrapper {
 	padding: 6% 12%;
 	background-color: rgb(46 46 51);
-	background-image: linear-gradient(to top right, rgb(46 46 51), teal);
+	background-image: linear-gradient(
+		45deg,
+		rgba(46, 46, 51, 1) 0%,
+		rgba(0, 189, 255, 0.2) 100%
+	);
 }
 
 .sez7h2 {
@@ -717,14 +721,30 @@ img[src^="about.image/team-member-"] {
 	display: grid;
 	grid-template-columns: repeat(11, 1fr);
 	grid-template-rows: auto;
-	grid-template-areas: "logosvg . . colfooter1 . colfooter2 . colfooter3 . colfooter4 .";
+	grid-template-areas: "logoa . . colfooter1 . colfooter2 . colfooter3 . colfooter4 .";
 	column-gap: 2%;
 	align-items: flex-start;
 	justify-content: left;
 }
 
-.footerlogosvg {
-	grid-area: logosvg;
+.footergrid h3 {
+	font-weight: 550;
+	margin-bottom: 0.4rem;
+	line-height: 1.5;
+	color: rgb(244 244 245);
+	font-family: "Inter", sans-serif;
+	font-size: 170%;
+	letter-spacing: -0.01em;
+}
+
+.footerlogoa {
+	grid-area: logoa;
+	display: inline-block;
+}
+
+.footersvg {
+	width: 3rem;
+	height: 3rem;
 }
 
 .footercol1 {
@@ -748,11 +768,43 @@ img[src^="about.image/team-member-"] {
 	font-size: 150%;
 	line-height: 1.5;
 	font-family: "Inter", sans-serif;
-	text-decoration: inherit;
 	overflow: visible;
 	white-space: nowrap;
+	text-decoration: none;
+}
+.footertext1:hover {
+	text-decoration: underline;
 }
 
 .footergrid ul {
 	list-style-type: none;
+}
+
+.footerflex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top: 5rem;
+	padding-bottom: 7rem;
+}
+
+.footerflexel1 {
+	flex: 1 33%;
+	text-align: left;
+}
+
+.footerflexel2 {
+	flex: 1 33%;
+	text-align: center;
+}
+
+.footerflexel3 {
+	flex: 1 33%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.termsprivacypolicy {
+	font-size: 100%;
 }
