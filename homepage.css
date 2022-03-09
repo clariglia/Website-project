@@ -796,7 +796,7 @@ h2~p {
     justify-content: space-around;
     height: max-content;
     margin-top: 50px;
-    padding: 0 25rem;
+    padding: 0 15rem;
 }
 
 .list {
@@ -830,11 +830,6 @@ aside ul {
     justify-content: space-between;
     width: 69%;
     height: max-content;
-   /* grid-template-column: auto auto auto;
-    height: 150px;
-    justify-content:center;
-    gap: 25px;
-    left:75px;*/
 }
 
 .fifth-section {
