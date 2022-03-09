@@ -23,9 +23,9 @@ background: linear-gradient(55deg, rgba(29,29,32,1) 85%, rgba(58,186,180,1) 100%
 
 h1 {
     color: #f4f4f5;
-    font-size: 7.2rem;
+    font-size: 8.8rem;
     font-family:'Red Hat Display', sans-serif;
-    line-height: 1.1;    
+    line-height: 1.1;   
 }
 
 h2 {
@@ -56,7 +56,6 @@ nav {
     margin: 0.1rem 0rem;
     width: 100%;
     height: max-content;
-    border: 1px solid red;
     display: flex; 
     flex-wrap:wrap;
     justify-content:space-around;
@@ -79,7 +78,6 @@ nav {
     font-size: 1.6rem;
 }
 .anchornav {
-    border: 1px solid blue;
     font-size: 1.6rem;
     font-family: sans-serif;
     margin: 1rem 1rem;
@@ -106,7 +104,6 @@ nav {
     background-color: #4fd1c5;
 }
 .borderbtn {
-    border: 1px solid green;
     display:flex;
     justify-content: center;
     flex-direction:column;
@@ -124,7 +121,6 @@ nav {
     }
 }
 .written {
-    border: 1px solid green;
     max-width: 90rem;
     height: max-content;
     display:flex;
@@ -216,7 +212,7 @@ span {
 }
 
 .sectionone {
-    border: 1px solid yellow;
+    padding: 0 5rem;
     margin-top: 10rem;
     width: 100%;
     height: 80rem;
@@ -235,11 +231,10 @@ span {
 
 .containernumber {
     box-sizing:border-box;
-    border: 1px solid lawngreen;
     display:flex;
     justify-content: space-around;
     margin-top: 5rem;
-    /*padding: 0 1.1rem;*/
+    padding: 0 14rem;
 
 
 }
@@ -406,7 +401,6 @@ h3 {
 }
 
 .thirddisplayflex {
-    border: 1px solid rgb(0, 183, 255);
     display: flex;
     flex-wrap:wrap;
     justify-content:space-around;
@@ -416,7 +410,6 @@ h3 {
     display:flex;
     flex-direction:column;
     width: 27rem;
-    border: 1px solid pink;
     height: max-content;
 }
 
@@ -426,7 +419,6 @@ h3 {
 }
 
 .containerphotovideo {
-    border: 1px solid cornflowerblue;
     width: 67.5rem;
     height: 51rem;
     display: flex;
@@ -762,7 +754,6 @@ h2~p {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    border: 1px solid tan;
     justify-content: space-around;
     height: max-content;
     margin-top: 50px;
