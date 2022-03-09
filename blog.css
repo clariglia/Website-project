@@ -189,12 +189,27 @@ aside div {
 }
 
 
-.bottom-link{
-    background-color: #404040;
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-    font-size: 15px;
+.bottom-button {
+    background-color: #313131;
+    color:rgb(240, 238, 238);
+    border: none;
+    height: 35px;
+    padding: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-btn {
+    display: flex;
+    justify-content:center;
+}
+
+.bottom-svg {
+    width: 15px;
+    display: inline-block;
+    margin-left: 15px;
+    fill: grey;
 }
 
 footer {
