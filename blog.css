@@ -220,24 +220,27 @@ footer ul {
     display: flex;
     flex-direction: column;
     list-style-type: none;
-}
 
-footer li {
-    color: white;
 }
 
 footer a {
-    color: lightgray;
+    color: gray;
     text-decoration: none;
 }
 
+footer li:first-child a {
+    color: white;
+    font-weight: bold;
+}
+
 .copyright{
-    color: lightgrey;
+    color: grey;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: 50px 0;
 }
 
 .social-icon {
@@ -259,6 +262,7 @@ footer a {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    padding-bottom: 40px;
 }
 
 .btn-footer {
