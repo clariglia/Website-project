@@ -667,8 +667,9 @@ img[src^="about.image/team-member-"] {
 /* Sezione 7*/
 
 .sez7wrapper {
-	padding: 7% 12%;
+	padding: 6% 12%;
 	background-color: rgb(46 46 51);
+	background-image: linear-gradient(to top right, rgb(46 46 51), teal);
 }
 
 .sez7h2 {
@@ -708,4 +709,50 @@ img[src^="about.image/team-member-"] {
 	margin-top: 2rem;
 	display: flex;
 	justify-content: center;
+}
+
+/*Footer*/
+
+.footergrid {
+	display: grid;
+	grid-template-columns: repeat(11, 1fr);
+	grid-template-rows: auto;
+	grid-template-areas: "logosvg . . colfooter1 . colfooter2 . colfooter3 . colfooter4 .";
+	column-gap: 2%;
+	align-items: flex-start;
+	justify-content: left;
+}
+
+.footerlogosvg {
+	grid-area: logosvg;
+}
+
+.footercol1 {
+	grid-area: colfooter1;
+}
+
+.footercol2 {
+	grid-area: colfooter2;
+}
+
+.footercol3 {
+	grid-area: colfooter3;
+}
+
+.footercol4 {
+	grid-area: colfooter4;
+}
+
+.footertext1 {
+	color: rgb(162 162 168);
+	font-size: 150%;
+	line-height: 1.5;
+	font-family: "Inter", sans-serif;
+	text-decoration: inherit;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+.footergrid ul {
+	list-style-type: none;
 }
