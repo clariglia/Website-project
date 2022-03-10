@@ -1,38 +1,4 @@
-body {
-    background-color: rgb(29, 29, 32);
-    padding: 0 8%;
-}
 
-header {
-    height: min-content;
-}
-
-section {
-    border-left: none;
-    border-right: none;
-    max-height: max-content;
-    min-height: min-content;
-
-}
-
-h1 {
-    color: #f4f4f5;
-    font-size: 72px;
-    font-family: 'Red Hat Display', sans-serif;
-
-}
-
-h2 {
-    color: #f4f4f5;
-    font-size: 56px;
-    font-family: 'Red Hat Display', sans-serif;
-}
-
-p {
-    font-size: 20px;
-    font-family: sans-serif;
-    color: #a2a2a8;
-}
 
 .logo {
     width: 32px;
@@ -41,21 +7,6 @@ p {
     position: relative;
 }
 
-nav {
-    margin: 1px 0px;
-    width: 100%;
-
-}
-
-.anchor {
-    font-size: 16px;
-    font-family: sans-serif;
-    margin: 10px 10px;
-    position: absolute;
-    top: 15px;
-    left: 250px;
-
-}
 
 a {
     padding: 8px 20px;
@@ -64,85 +15,6 @@ a {
     font-size: 16px;
 }
 
-.btn {
-    background-color: #3abab4;
-    color: #ffffff;
-    font-weight: bolder;
-    border: none;
-    font-size: 16px;
-    width: 150px;
-    height: 40px;
-    text-decoration: none;
-    position: absolute;
-    border-radius: 4px;
-    margin: 0 20px 0 500px;
-
-
-
-}
-
-.f1pic {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-}
-
-.f1pic_frase--link>h1 {
-    font-size: 6.4rem;
-    color: white;
-
-}
-
-.f1pic_frase>a:hover {
-    text-decoration: none;
-}
-
-.f1pic_unfrase {
-    color: #9a9aa4;
-    font-size: 2rem;
-}
-
-.f1pic_leading {
-    
-    height: max-content;
-    width: max-content;
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: 1rem;
-}
-
-.f1pic_trait {
-    
-    align-self: center;
-    color: gray;
-    
-}
-
-.f1pic_trait>a {
-    color: white;
-
-}
-.f1pic_trait{
-    font-size: 1.6rem;
-    
-}
-
-.f1pic_face {
-    background-image: url("../Website-project/blog.image/news-author-01.jpg");
-    height: 3.2rem;
-    width: 3.2rem;
-    border-radius: 50%;
-    background-position: center;
-    background-size: contain;
-    align-self: center;
-    
-}
-
-.f1pic_face:hover {
-    cursor: pointer;
-}
 
 aside {
     width: 25%;
@@ -189,28 +61,6 @@ aside div {
 }
 
 
-.bottom-button {
-    background-color: #313131;
-    color:rgb(240, 238, 238);
-    border: none;
-    height: 35px;
-    padding: 10px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-}
-
-.bottom-btn {
-    display: flex;
-    justify-content:center;
-}
-
-.bottom-svg {
-    width: 15px;
-    display: inline-block;
-    margin-left: 15px;
-    fill: grey;
-}
 
 footer {
     font-size: 13px;
@@ -269,14 +119,4 @@ footer li:first-child a {
     display: flex;
     justify-content: space-between;
     width: 220px;
-}
-
-.third-section {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.left-third-section {
-    width: 60%;
 }
