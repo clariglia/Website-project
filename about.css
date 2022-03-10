@@ -164,9 +164,9 @@ header {
 	justify-content: center;
 	background-image: url("/about.image/about-hero.jpg");
 	background-size: contain;
+	background-position: center;
 	background-repeat: no-repeat;
 	opacity: 0.75;
-	z-index: -1;
 }
 
 .marghe h1 > span {
@@ -221,27 +221,22 @@ header {
 
 #svg-1 {
 	fill: #3abab4;
-	background-image: linear-gradient(to bottom left, transparent, #3abab460 );
-
-
+	background-image: linear-gradient(to bottom left, transparent, #3abab460);
 }
 
 #svg-2 {
 	fill: #9f7aea;
-	background-image: linear-gradient(to bottom left, transparent, #9f7aea60 );
-
+	background-image: linear-gradient(to bottom left, transparent, #9f7aea60);
 }
 
 #svg-3 {
 	fill: #667eea;
-	background-image: linear-gradient(to bottom left, transparent, #667eea60 );
-
+	background-image: linear-gradient(to bottom left, transparent, #667eea60);
 }
 
 #svg-4 {
 	fill: #ed64a6;
-	background-image: linear-gradient(to bottom left, transparent, #ed64a660 );
-
+	background-image: linear-gradient(to bottom left, transparent, #ed64a660);
 }
 
 .empty-sec-1 {
@@ -358,7 +353,7 @@ hr {
 	display: inline-block;
 }
 
-/* aside */	
+/* aside */
 
 .sec-3 aside {
 	width: max-content;
@@ -388,7 +383,7 @@ hr {
 	border-radius: 9999px;
 	background-color: #3f3f45;
 	margin: auto;
-}	
+}
 
 .div-line {
 	width: 1px;
