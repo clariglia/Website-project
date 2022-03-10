@@ -47,7 +47,7 @@ p {
     font-size: 1.6rem;
 }
 .logo {
-    width: 5rem;
+    width: 3rem;
     height: 3rem;
     align-self:center;
     cursor:pointer;
@@ -109,23 +109,11 @@ nav {
     flex-direction:column;
 }
 
-/*todo inserire animation su h1, p, form e lista con delay diverso*/
-@keyframes fade-in {
-    from {
-        opacity:0;
-        transform:translateY(-50px);
-    }
-    to {
-        opacity:1;
-        transform:translateY(0);
-    }
-}
 .written {
     max-width: 90rem;
     height: max-content;
     display:flex;
     flex-direction:column;
-    animation: fade-in 0.5s ease 0.5s; 
 }
 
 
