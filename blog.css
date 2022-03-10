@@ -2,23 +2,23 @@
 /* Font families */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,800;1,700&display=swap');
 
+body {
+    background-color:#1d1d20;
+}
 
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: white;
+}*/
 
-
-
-}
 /* <---Main classes---> */
 .wrapper{
     max-width: 84%;
     margin: 0 auto;
-    
-
 }
+
 li{
     list-style: none;
 }
@@ -39,23 +39,21 @@ i{
 i:hover{
     color: white;
 }
-
-
-
 /* <---header's Css---> */
 
-
+.icon {
+    width: 30px;
+}
 
 header{
-    background: url("blog.image/hero-bg.jpg");
+    background-image: url("/blog.image/hero-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    width: 100%;
 }
 .blur-bg{
      background: linear-gradient(to bottom, rgba(14, 13, 13, 0.7), rgba(12, 12, 12, 0.7), rgba(14, 14, 14, 01));
-     min-height: 100%;
-     padding-bottom:20px ;
+     padding-bottom:20px;
 }
 
 
@@ -78,23 +76,23 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: -20px;
 }
+
 .navbar-left ul li{
     padding: 0 1.5rem;
 }
 .navbar-left ul li a{
     font-family: 'Red Hat Display', sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     text-decoration: none;
     color: rgb(165, 164, 164);
-    font-size: bold;
+    font-size: 16px;
 }
 .navbar-left ul li a:hover{
     color: white;
 }
+
 .btn{
-    
     color: white;
     margin: 10px;
     margin-left: 30px;
@@ -140,23 +138,21 @@ header{
 
 /* <---main-heading's Css---> */
 
-
-
-
-
 .main-heading{
 margin-top: 77px;
 margin-bottom: 35px;
 }
+
 .main-heading h1{
-    font-size: 4rem;
+    font-size: 6.4rem;
+    color: #f4f4f5;
     line-height: 1.16;
     font-weight: 800;
     letter-spacing: -.02em;
     font-family: 'Red Hat Display', sans-serif;
 }
 .p1{
-    font-size: 1.25rem;
+    font-size: 2rem;
     line-height: 1.5;
     color: rgb(165, 164, 164);
     font-family: Inter,sans-serif;
@@ -171,8 +167,9 @@ margin-bottom: 35px;
 }
 .author-name{
     margin-left: 10px;
-    font-size: .875rem;
+    font-size: 1.2rem;
     line-height: 1.5;
+    color: #ffffff;
     /* margin-left: 10px; */
 }
 
@@ -207,6 +204,7 @@ margin-bottom: 35px;
     /* min-height: 174px; */
     height: 100%;
     padding: 0 15px;
+    transition: .3s;
 
 }
 
@@ -234,17 +232,18 @@ margin-bottom: 35px;
 .p2{
     word-break:normal;
     margin-bottom: 10px;
-    
-
+    color: #a2a2a8;
+    font-size: 1.6rem;
 }
 
 .p2 a h3{
-    font-size: 1.125rem;
+    font-size: 1.8rem;
     line-height: 1.5;
     font-weight: 700;
     font-family: 'Red Hat Display', sans-serif;
     margin-left: 10px;
 }
+
 .img img{
     width: 100%;
     height: 100%;
@@ -256,11 +255,16 @@ margin-bottom: 35px;
 
 
 .main-content{
-    background: linear-gradient(to bottom, rgb(13, 13, 14), rgba(14, 14, 14, 01) , rgb(29, 29, 32) );
+    margin-top: 10rem;
+    /*background: linear-gradient(to bottom, rgb(13, 13, 14), rgba(14, 14, 14, 01) , rgb(29, 29, 32) );*/
+    display:flex;
+    width:100%;
 }
 .news{
+    width: 70%;
     display: flex;
-    padding-bottom: 60px;
+    justify-content: center;
+    /*padding-bottom: 60px;*/
     border-bottom: 1px solid rgba(165, 164, 164,0.1);
 }
 
@@ -275,13 +279,17 @@ margin-bottom: 35px;
     width: 75%;
 }
 .latest-news{
-    
+    width: 100%;
+    gap: 15px;
     display: flex;
+    flex-direction:row;
     flex-wrap: wrap;
     /* border: 1px solid black; */
 }
 .news h2{
-    font-size: 2.63rem;
+    margin-bottom: 2rem;
+    color: #f4f4f5;
+    font-size: 4.2rem;
     line-height: 1.24;
     font-weight: 800;
     letter-spacing: -.02em;
@@ -290,19 +298,19 @@ margin-bottom: 35px;
 .news-box{
     display: flex;
     flex-direction: column;
-    width: 46%;
-    margin: 20px 30px 20px 0;
+    width: 48%;
+
 
 }
 .news-box img.news-img{
     width: 100%;
    
 }
-.news-box h3{
-    font-size: 1.63rem;
+.h3{
+    font-size: 2.6rem;
     line-height: 1.24;
     font-weight: 800;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     letter-spacing: -.02em;
     font-family: 'Red Hat Display', sans-serif;
 }
@@ -322,6 +330,7 @@ span{
     color: rgba(165, 164, 164,0.7);
     font-weight: 400;
     font-family: Inter,sans-serif;
+    font-size: 12px;
 }
 
 
@@ -332,11 +341,6 @@ span{
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
 
 .logo {
     width: 32px;
@@ -355,7 +359,7 @@ a {
 
 
 aside {
-    width: 25%;
+    width: 30%;
     height: max-content;
 }
 
@@ -400,7 +404,7 @@ aside div {
 
 
 footer {
-    font-size: 13px;
+   padding: 0 10%;
 }
 
 footer ul {
@@ -416,12 +420,13 @@ footer a {
 }
 
 footer li:first-child a {
-    color: white;
+    color: #f4f4f5;
     font-weight: bold;
 }
 
 .copyright{
-    color: grey;
+    font-size: 14px;
+    color: #a2a2a8;
 }
 
 .footer-container {
@@ -456,4 +461,9 @@ footer li:first-child a {
     display: flex;
     justify-content: space-between;
     width: 220px;
+}
+
+.written-footer {
+    color: #a2a2a8;
+    font-size: 14px;
 }
