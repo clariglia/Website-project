@@ -1,201 +1,459 @@
-body {
-    background-color: #39393f;
-    padding: 0 8%;
-}
+/* Font families */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,800;1,700&display=swap');
 
-header {
-    height: min-content;
-}
 
-section {
-    border-left: none;
-    border-right: none;
-    max-height: max-content;
-    min-height: min-content;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+
 
 }
-
-h1 {
-    color: #f4f4f5;
-    font-size: 72px;
-    font-family: 'Red Hat Display', sans-serif;
+/* <---Main classes---> */
+.wrapper{
+    max-width: 84%;
+    margin: 0 auto;
+    
 
 }
-
-h2 {
-    color: #f4f4f5;
-    font-size: 56px;
-    font-family: 'Red Hat Display', sans-serif;
+li{
+    list-style: none;
 }
-
-p {
-    font-size: 20px;
-    font-family: sans-serif;
-    color: #a2a2a8;
-}
-
-.logo {
+.img-circle{
+    border-radius: 50%;
     width: 32px;
-    height: 30px;
-    margin: 20px;
-    position: relative;
 }
-
-nav {
-    margin: 1px 0px;
-    width: 100%;
-
-}
-
-.anchor {
-    font-size: 16px;
-    font-family: sans-serif;
-    margin: 10px 10px;
-    position: absolute;
-    top: 15px;
-    left: 250px;
-
-}
-
-a {
-    padding: 8px 20px;
+a{
     text-decoration: none;
-    color: #d4d4d8;
-    font-size: 16px;
+}
+a:hover{
+    text-decoration: underline;
+}
+i{
+    margin-left: 5px;
+    color: rgb(165, 164, 164);
+}
+i:hover{
+    color: white;
 }
 
-.btn {
-    background-color: #3abab4;
-    color: #ffffff;
-    font-weight: bolder;
-    border: none;
+
+
+/* <---header's Css---> */
+
+
+
+header{
+    background: url("blog.image/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.blur-bg{
+     background: linear-gradient(to bottom, rgba(14, 13, 13, 0.7), rgba(12, 12, 12, 0.7), rgba(14, 14, 14, 01));
+     min-height: 100%;
+     padding-bottom:20px ;
+}
+
+
+
+/* <---Navbarr's Css---> */
+
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    padding: none;
+    margin: 5px 0;
+   
+}
+.navbar-left ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -20px;
+}
+.navbar-left ul li{
+    padding: 0 1.5rem;
+}
+.navbar-left ul li a{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(165, 164, 164);
+    font-size: bold;
+}
+.navbar-left ul li a:hover{
+    color: white;
+}
+.btn{
+    
+    color: white;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+    border: 0px none;
+    border-radius: 5px;
+    box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Inter,sans-serif;
     font-size: 16px;
-    width: 150px;
+    font-weight: 501;
+    justify-content: center;
+    line-height: 1;
     height: 40px;
-    text-decoration: none;
+     padding: 0px 18px;
+    position: relative;
+    transition: ease-in-out 0.1s;
+
+}
+.navbar-right .btn{
+    background-color: #4FD1C5;
+   
+}
+.navbar-right .bars{
+    display: none;
+    font-size: 20px;
+    margin-right: 25px;
+}
+.btn-secondary{
+    margin: 40px auto;
+    background-color:  #2E2E33;
+    color: rgb(165, 164, 164);
+    
+}
+.btn-secondary:hover{
+    color: white;
+}
+
+
+
+
+/* <---main-heading's Css---> */
+
+
+
+
+
+.main-heading{
+margin-top: 77px;
+margin-bottom: 35px;
+}
+.main-heading h1{
+    font-size: 4rem;
+    line-height: 1.16;
+    font-weight: 800;
+    letter-spacing: -.02em;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.p1{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: rgb(165, 164, 164);
+    font-family: Inter,sans-serif;
+    font-weight: 400;
+    margin: 20px 0;
+    text-align: left;
+    width: 70%;
+}
+.author{
+    display: flex;
+    align-items:flex-start;
+}
+.author-name{
+    margin-left: 10px;
+    font-size: .875rem;
+    line-height: 1.5;
+    /* margin-left: 10px; */
+}
+
+/* <---related-posts's Css---> */
+
+
+.related-posts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.post{
+    position: relative;
+    flex-basis: 22%;
+    margin-right: 25px;
+    width: 70px;
+    max-height: 240px;
+    overflow: hidden;
+}
+.desc{
     position: absolute;
-    border-radius: 4px;
-    margin: 0 20px 0 500px;
-
-
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    font-family: Inter,sans-serif;
+    background-color: rgba(0, 128, 128,0.9);
+    width: 100%;
+    /* min-height: 174px; */
+    height: 100%;
+    padding: 0 15px;
 
 }
 
-.f1pic {
+.desc:hover{
+    background-color: rgba(0, 128, 128,0.6);
+}
+.desc2{
+    background-color: rgba(135, 109, 193,0.9);
+}
+.desc2:hover{
+    background-color: rgba(135, 109, 193,0.6);
+}
+.desc3{
+    background-color:  rgba(82, 99, 180,0.9);
+}
+.desc3:hover{
+    background-color: rgba(82, 99, 180,0.6);
+}
+.desc4{
+    background-color: rgba(183, 83, 134,0.9);
+}
+.desc4:hover{
+    background-color: rgba(183, 83, 134,0.6);
+}
+.p2{
+    word-break:normal;
+    margin-bottom: 10px;
+    
+
+}
+
+.p2 a h3{
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 10px;
+}
+.img img{
     width: 100%;
+    height: 100%;
+}
+
+
+/* <---Main content's Css---> */
+
+
+
+.main-content{
+    background: linear-gradient(to bottom, rgb(13, 13, 14), rgba(14, 14, 14, 01) , rgb(29, 29, 32) );
+}
+.news{
+    display: flex;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(165, 164, 164,0.1);
+}
+
+
+/* <---News content's Css---> */
+
+
+
+.news-content{
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    width: 75%;
 }
-
-.f1pic_frase--link>h1 {
-    font-size: 6.4rem;
-    color: white;
-
-}
-
-.f1pic_frase>a:hover {
-    text-decoration: none;
-}
-
-.f1pic_unfrase {
-    color: #9a9aa4;
-    font-size: 2rem;
-}
-
-.f1pic_leading {
+.latest-news{
     
-    height: max-content;
-    width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+.news h2{
+    font-size: 2.63rem;
+    line-height: 1.24;
+    font-weight: 800;
+    letter-spacing: -.02em;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.news-box{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 20px 30px 20px 0;
+
+}
+.news-box img.news-img{
+    width: 100%;
+   
+}
+.news-box h3{
+    font-size: 1.63rem;
+    line-height: 1.24;
+    font-weight: 800;
+    margin-top: 15px;
+    letter-spacing: -.02em;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.author-info{
+    color: rgba(165, 164, 164,0.7);
+    display: flex;
+    align-items: center;
+}
+.author-info img{
+    margin-right: 10px;
+}
+.author-info a{
+    color: rgb(165, 164, 164);
+    margin: 0 5px;
+}
+span{
+    color: rgba(165, 164, 164,0.7);
+    font-weight: 400;
+    font-family: Inter,sans-serif;
+}
+
+
+/* <---Aside popular news's Css---> */
+
+
+.popular-news{
+    width: 25%;
+}
+
+.popular-news h4{
+    font-size: 1.63rem;
+    line-height: 1.24;
+    font-weight: 800;
+    margin: 10px 0;
+    letter-spacing: -.02em;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.p2{
+    font-size: 1rem;
+    line-height: 1.25;
+    letter-spacing: -.02em;
+    color: rgb(165, 164, 164);
+    font-family: Inter,sans-serif;
+    margin: 20px 0;
+}
+.list-style{
+    display: flex;
+    border-bottom: 1px solid rgba(165, 164, 164,0.1);
+    padding-bottom: 20px;
+}
+.num{
+    width: 20%;
+    font-size: 1.75rem;
+    line-height: 1.24;
+    font-weight: 800;
+    margin: 10px 0;
+    letter-spacing: -.02em;
+    color: rgba(165, 164, 164,0.7);
+    font-family: 'Red Hat Display', sans-serif;
+}
+.author-info1 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.author-info1 h3{
+    font-size: 1rem;
+    line-height: 1.24;
+    font-weight: 800;
+    margin: 10px 0;
+    letter-spacing: -.02em;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.align-center{
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
-    margin-top: 1rem;
+    align-items: center;
 }
 
-.f1pic_trait {
-    
-    align-self: center;
-    color: gray;
-    
+
+
+
+/* <---footer's Css---> */
+
+
+footer{
+    background-color: #1D1D20;
+    padding: 30px 0;
+    font-family: Inter,sans-serif;
+}
+.footer{
+    padding: 2% 0;
+}
+.upper-part{
+    display: flex;
+    margin-bottom: 40px;
+}
+.logo{
+    width: 30%;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 60%;
+}
+.contacts h5{
+    font-size: 15px;
+    font-weight: normal;
+}
+.contacts ul li a{
+    color: rgba(165, 164, 164,0.7);
+    font-size: 15px;
+    font-weight:lighte;
 }
 
-.f1pic_trait>a {
-    color: white;
 
+.lower-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.f1pic_trait{
-    font-size: 1.6rem;
-    
+.lower-part a{
+    color: rgba(165, 164, 164,0.7);
+    font-size: 16px;
+    margin: 0 5px;
 }
-
-.f1pic_face {
-    background-image: url("../Website-project/blog.image/news-author-01.jpg");
-    height: 3.2rem;
-    width: 3.2rem;
-    border-radius: 50%;
-    background-position: center;
-    background-size: contain;
-    align-self: center;
-    
-}
-
-.f1pic_face:hover {
-    cursor: pointer;
-}
-
-aside {
+.lower-part p{
+    color: rgba(165, 164, 164,0.7);
     font-size: 16px;
 }
 
-aside h3 {
-    color: white;
+.social-contacts ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-aside h5 {
-    color: white;
+.social-contacts ul li{
+    padding: 1%;
+    
 }
-
-aside a {
-    color: lightgray;
-    text-decoration: none;
+.social-contacts ul li a i{
+    color: #4FD1C5;
 }
-
-aside span {
-    color: grey;
-}
-
-aside article {
-    display: inline-block;
-}
-
-
-.bottom-link{
-    background-color: #404040;
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-    font-size: 15px;
-}
-
-footer {
-    font-size: 13px;
-}
-
-footer ul {
-    display: inline-block;
-    list-style-type: none;
-}
-
-footer li {
-    color: white;
-}
-
-footer a {
-    color: lightgray;
-    text-decoration: none;
-}
-
 .copyright{
-    color: lightgrey;
+    margin-bottom: 30px;
+}
+.privacy-policy{
+    margin-bottom: 30px;
+}
+.social-contacts{
+    margin-bottom: 30px;
 }
