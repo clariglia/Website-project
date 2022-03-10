@@ -71,22 +71,26 @@ nav {
 	z-index: 1;
 }
 
+.nav-sx {
+	justify-content: flex-start;
+	display: flex;
+}
+
 .logo {
 	width: 32px;
 	height: 32px;
 }
 
-nav > ul {
+nav ul {
 	width: 35%;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	opacity: 1;
 	z-index: 1;
 }
 
-nav > ul > li {
+nav ul > li {
 	list-style: none;
 }
 
@@ -149,6 +153,7 @@ header {
 	background-repeat: no-repeat;
 	opacity: 0.5;
 	position: absolute;
+	z-index: -1;
 }
 
 .img-header {
@@ -161,6 +166,7 @@ header {
 	background-size: contain;
 	background-repeat: no-repeat;
 	opacity: 0.75;
+	z-index: -1;
 }
 
 .marghe h1 > span {
@@ -172,14 +178,15 @@ header {
 	position: relative;
 	font-size: 78px;
 	top: -375px;
+	z-index: 2;
 }
 
 .break {
 	width: 0;
 	height: 60px;
 	margin: auto;
-	border: solid 1px #3f3f25;
-	background-color: #3f3f25;
+	border: solid 1px #3f3f45;
+	background-color: #3f3f45;
 	position: relative;
 	top: -225px; /* ???????????????????????? */
 }
@@ -206,26 +213,35 @@ header {
 }
 
 .svg-sec-1 > div > svg {
-	border: solid 1px red;
 	width: 80px;
 	border-radius: 40px;
 	margin: auto;
+	overflow: visible;
 }
 
 #svg-1 {
 	fill: #3abab4;
+	background-image: linear-gradient(to bottom left, transparent, #3abab460 );
+
+
 }
 
 #svg-2 {
 	fill: #9f7aea;
+	background-image: linear-gradient(to bottom left, transparent, #9f7aea60 );
+
 }
 
 #svg-3 {
 	fill: #667eea;
+	background-image: linear-gradient(to bottom left, transparent, #667eea60 );
+
 }
 
 #svg-4 {
 	fill: #ed64a6;
+	background-image: linear-gradient(to bottom left, transparent, #ed64a660 );
+
 }
 
 .empty-sec-1 {
@@ -297,7 +313,6 @@ hr {
 }
 
 .sec-3 aside {
-	border: solid red;
 	width: 15%;
 }
 
@@ -343,28 +358,46 @@ hr {
 	display: inline-block;
 }
 
-/* aside */
+/* aside */	
 
 .sec-3 aside {
+	width: max-content;
+	display: flex;
+	justify-content: space-between;
+	color: #a2a2a8;
+	cursor: pointer;
+}
+
+#divs {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	height: 50%;
+	margin-left: 20px;
 }
 
-.sec-3 aside > button {
+#date {
 	display: flex;
-	justify-content: space-around;
-	/* stile bottoni */
-	background: none;
-	color: #a2a2a8;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+	flex-direction: column;
+	height: 50%;
+	justify-content: space-between;
 }
 
-.sec-3 aside > button > div {
+.div-circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 9999px;
+	background-color: #3f3f45;
+	margin: auto;
+}	
+
+.div-line {
+	width: 1px;
+	height: 30px;
+	background-color: #3f3f45;
+	margin: auto;
+}
+
+.sec-3 aside > p > div {
 	border: solid 1px #3f3f45;
 	width: 5px;
 	height: 5px;
@@ -397,22 +430,23 @@ hr {
 }
 
 .big-sec-4 {
-	width: 100%;
-	margin: auto;
+	width: 80%;
+	margin: 70px auto;
 	display: flex;
-	justify-content: space-around;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 
-.sec-4 aside {
+.big-sec-4 aside {
 	width: 20%;
-	margin: auto;
+	height: 100%;
 }
 
 .grid-sec-4 {
 	width: 70%;
 	display: grid;
 	grid-template-columns: auto auto auto;
-	gap: 10px;
+	gap: 24px;
 	overflow: hidden;
 	justify-content: center;
 }
