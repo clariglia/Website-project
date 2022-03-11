@@ -216,6 +216,7 @@ span {
     width: 100%;
     height: 80rem;
     display: flex;
+    flex-wrap: wrap;
     align-items:center;
     justify-content: space-around;
 
@@ -231,11 +232,10 @@ span {
 .containernumber {
     box-sizing:border-box;
     display:flex;
+    flex-wrap:wrap;
     justify-content: space-around;
+    /*padding: 0 8rem;*/
     margin-top: 5rem;
-    padding: 0 8rem;
-
-
 }
 
 .boxnumber {
@@ -278,7 +278,6 @@ h3 {
 .secondwritten {
     text-align:center;
     margin: 5rem 0;
-
 }
 
 .carousel {
@@ -790,6 +789,7 @@ h2~p {
 .list {
     width: 20%;
     height: max-content;
+    flex-wrap: wrap;
     display: flex;
     justify-content: flex-start;
 }
