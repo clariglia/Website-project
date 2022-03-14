@@ -10,9 +10,9 @@ body {
 .firstsection {
     padding: 0 10%;
     margin-bottom: 5rem;
-    /*background: rgb(29,29,32);
-background: linear-gradient(55deg, rgba(29,29,32,1) 85%, rgba(58,186,180,1) 100%);*/
 }
+
+
 
 .svg-first_section {
     position:absolute;
@@ -137,8 +137,6 @@ input {
 }
 
 .btntwo {
-    /*position: relative;
-    left: 10px;*/
     height: 5rem;
     width: 17rem;
     border-radius: 0.5rem;
@@ -221,6 +219,53 @@ span {
     justify-content: space-around;
 
 }
+
+@media all and (max-width: 480px) { 
+    .sectionone h1{
+        font-size: 5rem;
+    }
+    .sectionone p{
+        font-size: 1.5rem;
+    }
+    .sectionone input{
+        width: 30rem;
+    }
+    .sectionone form{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .sectionone .btntwo{
+        width: 18rem;
+        height: 18rem;
+    }
+    .sectionone .writtenlist {
+        font-size: 1.2rem;
+    }
+    .sectionone {
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .img-phone{
+        position:absolute;
+        top: 1.2rem;
+        left: 1.4rem;
+    }
+    .play-button {
+        width: 7rem;
+        position: absolute;
+        top: 15rem;
+        left: 5.6rem;
+    }
+    .containernumber {
+        width: 30rem;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        gap: 2rem;
+    }
+} 
 
 .photophone {
     max-width: 25.5rem;
