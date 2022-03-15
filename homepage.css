@@ -1006,3 +1006,117 @@ ul {
 .svgstyle {
     fill:#3abab4;
 }
+
+@media screen and (max-width: 415px) {
+    body{
+        width: 100%;
+    }
+
+    .firstsection{
+        padding:0;
+    }
+    .svg-first_section {
+        display:none;
+    }
+    nav{
+        display:flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+        width: 50%;
+    }
+    .anchornav{
+        width: 30rem;
+    }
+    .aself {
+        padding: 0 0.5rem;
+        font-size:1.3rem;
+    }
+    .btn {
+        margin:auto;
+    }
+    .sectionone {
+        width:50%;
+        height:max-content;
+        margin-top: 6rem;
+    }
+    .written {
+        max-width: 41.4rem;
+    }
+    h1 {
+        font-size:4rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+    input {
+        width: 18rem;
+        height: 4rem;
+        border-radius: 0.4rem;
+    }
+    
+    .btntwo {
+        height: 4rem;
+        width: 13rem;
+        border-radius: 0.6rem;
+    }
+
+    .writtenlist {
+        font-size: 1rem;
+    }
+
+    .containernumber {
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        padding:0;
+    }
+    .boxnumber {
+        width: 15rem;
+        height: 9rem;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size:2.3rem;
+        text-align:left;
+    }
+
+    h2~p {
+        text-align:left;
+        font-size: 0.9rem;
+    }
+    .secondsection--carousel {
+        width:100%;
+        margin-left:0;
+    }
+    .carousel{
+        height:10vh;
+        width: 80%;
+        margin:0;
+    }
+    .carousel1{
+        width: 10rem;
+        height: 10rem;
+    }
+    .carouselbtn {
+        width: 5rem;
+        height: 2rem;
+        padding: 0 0.5rem;
+        font-size: 0.7rem;
+    }
+    .containerbtn{
+        width: 50%;
+    }
+
+    .btnleft {
+        width: 4rem;
+        padding: 1.2rem;
+    }
+
+    
+}
