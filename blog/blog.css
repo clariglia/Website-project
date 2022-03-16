@@ -443,3 +443,49 @@ footer li:first-child a {
 	color: #a2a2a8;
 	font-size: 14px;
 }
+
+/* <---Media Queries---> */
+
+
+@media screen and (max-width:768px){
+    header{
+        min-height: 100vh;
+    }
+    .navbar-left ul li.links{
+        display: none;
+    }
+    .navbar-right .btn{
+        display: none;
+    }
+    .navbar-right .bars{
+        display: block;
+    }
+    .main-heading{
+        margin-top: 50px;
+        margin-bottom: 35px;
+        }
+    .main-heading h1{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .p1{
+        text-align: center;
+        width: 95%;
+    }
+    .author{
+        align-items:center;
+        justify-content: center;
+    }
+    
+    
+}
+@media screen and (max-width:640px){
+    .post{
+        flex-basis: 95%;
+        max-height: 120px;
+    }
+    .news-box{
+        width: 98%;
+        margin: 20px;
+    }
+}
