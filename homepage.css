@@ -173,10 +173,6 @@ span {
     margin: 0 0.5rem;
 }
 
-.phone-mockup {
-    width: 30rem;
-    height: max-content;
-}
 .containerimg {
     width: 30rem;
     height: max-content;
@@ -263,8 +259,6 @@ h3 {
 }
 
 .secondsection--carousel {
-    width: 100%;
-    height: max-content;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -279,7 +273,6 @@ h3 {
 
 .carousel {
     width: 100%;
-    height: 57vh;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
@@ -974,7 +967,7 @@ a>p {
 
 .footer-col {
     font-family: "inter", helvetica,sans-serif;
-    font-size:14px;
+    font-size: 1.1rem;
     color:#f4f4f5;
     height: max-content;
 }
@@ -1031,9 +1024,49 @@ ul {
 }
 
 
+@media only screen and (max-width: 768px) {
+    body {
+        border: 1px solid blue;
+        height: max-content;
+    }
+    /*!1° sezione tablet*/
+    .firstsection {
+        padding: 0;
+    }
+    .svg-first_section {
+        display:none;
+    }
+    .written {
+        max-width: 40rem;
+    }
+    h1 {
+        font-size: 6rem;
+    }
+    p {
+        font-size: 1.4rem;
+    }
+    .boxnumber {
+        width: 17rem;
+        height: 12rem;
+    }
+    
+    h3 {
+        font-size: 3rem;
+    }
+    /*!2° sezione tablet*/
 
+    /*!3° sezione tablet*/
 
+    /*!4° sezione tablet*/
 
+    /*!5° sezione tablet*/
+
+    /*!6° sezione tablet*/
+
+    /*!7° sezione tablet*/
+    /*!8° sezione tablet*/
+
+}
 
 @media screen and (max-width: 480px) {
     body{
@@ -1051,9 +1084,8 @@ ul {
     display: flex;
     height: max-content;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
-    gap: 2rem;
     }
     .anchornav{
         width: 28rem;
@@ -1075,15 +1107,15 @@ ul {
         height:4rem;
     }
     .sectionone {
-        width:38rem;
+        width: 90vw;
         height:max-content;
-        margin-top: 6rem;
+        margin: 6rem auto 0;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         gap:2rem;
     }
     .written {
-        max-width: 20rem;
+        max-width: 50%;
         display: flex;
         align-items: flex-start;
     }
@@ -1093,16 +1125,15 @@ ul {
     }
 
     p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .form {
-        height: 12rem;
-        display:flex;
-        flex-direction:column;
-        gap: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        margin:0;
     }
     .input {
-        width: 18rem;
+        width: 12rem;
         height: 4rem;
         border-radius: 0.4rem;
     }
@@ -1111,22 +1142,22 @@ ul {
     }
     .btntwo {
         height: 4rem;
-        width: 14rem;
-        border-radius: 0.6rem;
+        width: 10rem;
+        border-radius: 0.5rem;
+        font-size: 1.3rem;
     }
 
     .writtenlist {
         font-size: 1rem;
     }
     .containerimg {
-        width: 12rem;
+        width: 45%;
     }
-    .img-phone {
-        width: 10.6rem;
-        height: max-content;
+    .img-phone{
+        width: 88%;
         position: absolute;
         top: 0.5rem;
-        left: 0.5rem;
+        left: 1rem;
         border-radius: 1rem;
     }
 
@@ -1145,11 +1176,11 @@ ul {
         padding:0;
     }
     .boxnumber {
-        width: 15rem;
-        height: 9rem;
+        width: 11rem;
+        height: 7rem;
     }
     h3{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     h2{
         font-size:3rem;
@@ -1165,22 +1196,17 @@ ul {
         margin-left:0;
     }
     .carousel{
-        height:10vh;
-        width: 40rem;
         margin:0;
     }
     .carousel1{
-        width: 15rem;
-        height: 10rem;
+        width: 20rem;
+        height: 14rem;
     }
     .carouselbtn {
         width: 5rem;
         height: 2rem;
         padding: 0 0.5rem;
         font-size: 0.7rem;
-    }
-    .containerbtn{
-        width: 35rem;
     }
 
     .btnleft {
@@ -1199,9 +1225,10 @@ ul {
         gap: 2rem;
     }
     .listflex {
-        width: 45rem;
+        width: 100%;
         display:flex;
         flex-direction:row;
+        justify-content: center;
         margin-bottom: 3rem;
     }
     
@@ -1334,10 +1361,10 @@ ul {
         font-size: 1rem;
     }
     .container {
-        /*width:48rem;
+        width:48rem;
         display: flex;
         justify-content: center;
-        gap: 2rem;*/
+        gap: 2rem;
     }
     .container-one {
         grid-row: 1;
@@ -1394,9 +1421,8 @@ ul {
     }
     
     .articles-with-photos {
-        width: 35rem;
+        width: 100vw;
         gap: 1rem;
-        margin: 12rem 3rem;
     }
     .test-names {
         font-size: 1rem;
@@ -1423,10 +1449,6 @@ ul {
         left: 1rem;
         top: 1.5rem;
     }
-    .container-arrow {
-        
-    }
-
     .svg-colored-up~h4 {
         font-family: "Red Hat Display", Helvetica, Sans-serif;
         font-weight: bold;
@@ -1515,46 +1537,4 @@ ul {
         width: 2.5rem;
         height: 2.5rem;
     }
-}
-
-@media only screen and (max-width: 768px) {
-    body {
-        border: 1px solid blue;
-        width: 76.8rem;
-        height: max-content;
-    }
-    /*!1° sezione tablet*/
-    .firstsection {
-        padding: 0;
-    }
-    .written {
-        max-width: 40rem;
-    }
-    h1 {
-        font-size: 6rem;
-    }
-    p {
-        font-size: 1.4rem;
-    }
-    .boxnumber {
-        width: 17rem;
-        height: 12rem;
-    }
-    
-    h3 {
-        font-size: 3rem;
-    }
-    /*!2° sezione tablet*/
-    
-    /*!3° sezione tablet*/
-
-    /*!4° sezione tablet*/
-
-    /*!5° sezione tablet*/
-
-    /*!6° sezione tablet*/
-
-    /*!7° sezione tablet*/
-    /*!8° sezione tablet*/
-
 }

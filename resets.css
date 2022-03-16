@@ -14,8 +14,13 @@
    /* Switches font-size to 10px (implicit value) while allowing zooming via browser */
    /* Also uses a generic sans-serif for a more modern base style */
    html {
-       font-size: 62.5%;
+       font-size: 10px;
        font-family: sans-serif;
+   }
+   @media only screen and (max-width: 480px) {
+    html {
+        font-size: 7px;
+    }
    }
       
    /* Uses a more accessible and spacious line-height */
