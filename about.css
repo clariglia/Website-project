@@ -800,6 +800,7 @@ img[src^="about.image/team-member-"] {
 	overflow: visible;
 	white-space: nowrap;
 	text-decoration: none;
+	max-width: 20vw;
 }
 .footertext1:hover {
 	text-decoration: underline;
