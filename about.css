@@ -16,12 +16,11 @@ body {
 
 /* formattazione testo */
 
-/* controlla font-heigth, line-eight */
-
 .marghe h1 {
 	font-family: "Red Hat Display", sans-serif;
 	color: #f4f4f5;
 	margin-bottom: 2%;
+	font-size: 5vw;
 	font-weight: 800;
 	letter-spacing: -0.02em;
 	opacity: 1;
@@ -184,7 +183,6 @@ header {
 .marghe h1 {
 	text-align: center;
 	position: relative;
-	font-size: 5vw;
 	z-index: 2;
 	margin-top: -25%;
 }
