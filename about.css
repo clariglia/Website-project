@@ -437,7 +437,8 @@ hr {
 	width: 80%;
 	margin: 10vw auto;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .big-sec-4 aside {
@@ -449,13 +450,13 @@ hr {
 	width: 70%;
 	display: grid;
 	grid-template-columns: auto auto auto;
-	gap: 24px;
+	gap: 2vw;
 	justify-content: center;
 }
 
 .slides {
-	width: 240px;
-	height: 240px;
+	width: 15vw;
+	height: 15vw; /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 	text-align: center;
 	color: #ffffff;
 	cursor: pointer;
