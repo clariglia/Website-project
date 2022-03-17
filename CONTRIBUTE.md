@@ -31,12 +31,6 @@ Il team è composto in tre micro-team da due persone e si avrà una pagina asseg
 # BRANCH 
 I micro-team dovranno lavorare nella loro branch principale: (feat/homepage, feat/about, feat/blog) 
 
-Nella branch principale potete sviluppare queste sotto-branch:
-Nuova feature: feat/name-of-feature ---> Nuova feature
-Bugfix: fix/bug-fixed-hash ---> Fix di bug
-Refactor: ref/what-i-have-changed ---> Pulizia del codice e miglioramento
-Style: style/new-style ---> cambiamenti minori estetici sul css
-
 # COMMIT 
 I commit devono spiegare la modifica al codice effettuata, utilizzando questa convenzione:
 
