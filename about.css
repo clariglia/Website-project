@@ -435,12 +435,9 @@ hr {
 
 .big-sec-4 {
 	width: 80%;
-	margin: 70px auto;
+	margin: 10vw auto;
 	display: flex;
-	flex-wrap: wrap-reverse;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-end;
+	flex-direction: column;
 }
 
 .big-sec-4 aside {
@@ -453,7 +450,6 @@ hr {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	gap: 24px;
-	overflow: hidden;
 	justify-content: center;
 }
 
