@@ -326,7 +326,7 @@ hr {
 	grid-template-areas:
 		"a b"
 		"c d";
-	gap: 2%;
+	gap: 2vw;
 }
 
 .art-sec-3 > article {
@@ -428,7 +428,7 @@ hr {
 }
 
 .sub-sec-4 {
-	width: 50%;
+	width: 70%;
 	margin: auto;
 	text-align: center;
 }
@@ -442,34 +442,40 @@ hr {
 }
 
 .big-sec-4 aside {
-	width: 20%;
-	height: 100%;
+	flex: 1 30%;
 }
 
 .grid-sec-4 {
-	width: 70%;
+	flex: 1 70%;
 	display: grid;
 	grid-template-columns: auto auto auto;
-	gap: 2vw;
+	gap: 1.5vw;
 	justify-content: center;
 }
 
 .slides {
 	width: 15vw;
-	height: 15vw; /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+	padding-top: 15vw;
 	text-align: center;
 	color: #ffffff;
 	cursor: pointer;
+	position: relative;
 }
 
-.slides > h3 {
-	margin-top: 180px;
-	margin-bottom: 0px;
-	font-size: 18px;
+.sl-txt {
+	position: absolute;
+	top: 80%;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 
-.slides > p {
-	font-size: 14px;
+.sl-txt > h3 {
+	font-size: 1vw;
+}
+
+.sl-txt > p {
+	font-size: .8vw;
 }
 
 #sl-1 {
