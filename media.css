@@ -5,6 +5,10 @@
 		font-size: 1vw;
 	}
 
+	.mysvg {
+		zoom: 0.8;
+	}
+
 	.basemargin {
 		margin: 0 5vw;
 	}
@@ -35,10 +39,6 @@
 
 	.footerflex {
 		margin-top: 5vw;
-	}
-
-	.sez6a {
-		background-size: 8px 6.5px;
 	}
 
 	.sez7a {
@@ -85,5 +85,11 @@
 
 	.big-sec-3 > aside {
 		padding: 0;
+	}
+}
+
+@media (max-width: 480px) {
+	.mysvg {
+		zoom: 0.6;
 	}
 }

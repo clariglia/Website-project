@@ -556,8 +556,17 @@ hr {
 }
 
 .bordertopbottom {
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
+	border-top: 1px solid rgb(46 46 51);
+	border-bottom: 1px solid rgb(46 46 51);
+}
+
+.prova {
+	font-size: 20em !important;
+}
+
+.mysvg {
+	width: 16px;
+	height: 13px;
 }
 
 .h1sez5e6 {
