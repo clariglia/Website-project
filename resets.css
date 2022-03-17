@@ -5,6 +5,37 @@
 	box-sizing: border-box;
 }
 
+   /* Removes any browser-opinionated spaces */
+   *,
+   *::before,
+   *::after {
+       margin: 0;
+       padding: 0;
+   }
+      
+   /* Switches font-size to 10px (implicit value) while allowing zooming via browser */
+   /* Also uses a generic sans-serif for a more modern base style */
+   html {
+       font-size: 10px;
+       font-family: sans-serif;
+   }
+   @media only screen and (max-width: 480px) {
+    html {
+        font-size: 7px;
+    }
+   }
+      
+   /* Uses a more accessible and spacious line-height */
+   body {line-height: 1.4;}
+      
+   /* Allows percentage-based heights */
+   html, body {height: 100%;}
+      
+   /* Removes the unwanted ability to overflow content */
+   img, picture, video, canvas, svg, iframe, object {
+       display: block;
+       max-width: 100%;
+   }
 /* Removes any browser-opinionated spaces */
 *,
 *::before,
