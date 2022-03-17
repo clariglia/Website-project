@@ -1056,15 +1056,60 @@ ul {
     /*!2° sezione tablet*/
 
     /*!3° sezione tablet*/
+    .listflex {
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content: center;
+        width: 100%;
+    }
 
     /*!4° sezione tablet*/
+    .containerphone {
+        padding: 0 1rem;
+    }
+    .phone1 {
+        width: 30vw;
+    }
+    .photo-phone-one {
+        width: 85%;
+        height: max-content;
+        top:0.6rem;
+        left:1.5rem;
+    }
+        
 
     /*!5° sezione tablet*/
 
     /*!6° sezione tablet*/
+    .svg_sec-sixth {
+        display:none;
+    }
+    .tests {
+        padding: 1rem;
+    }
+
 
     /*!7° sezione tablet*/
+    .containercolors {
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    .on-footer-container {
+        display:grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+    }
+    .on-footer-container-1>h3 {
+        font-size: 3rem;
+    }
     /*!8° sezione tablet*/
+    .containerfooter {
+        width: 100%;
+    }
+    .social-logos {
+        width: 25%;
+    }
 
 }
 
