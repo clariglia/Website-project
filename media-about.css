@@ -13,6 +13,16 @@
 		font-size: 4.2vw;
 	}
 
+	.sez6h4 {
+		font-family: "Inter", sans-serif;
+		color: rgb(212 212 216);
+		font-weight: 600;
+		font-size: 1.8vw;
+		line-height: 1.5;
+		letter-spacing: -0.02em;
+		padding: 1vw 0;
+	}
+
 	.psez5e6e7 {
 		color: rgb(162 162 168);
 		font-family: "Inter", sans-serif;
