@@ -110,7 +110,7 @@ nav a {
 
 nav > div > button {
 	background-color: #3abab4;
-	border-radius: 0.4rem;
+	border-radius: 0.4vw;
 	border: none;
 	text-align: center;
 	align-items: center;
@@ -539,7 +539,7 @@ hr {
 /* Base&Generali */
 
 .basemargin {
-	margin: 0 10%;
+	margin: 0 5vw;
 }
 
 .darkgraybgc {
@@ -547,8 +547,8 @@ hr {
 }
 
 .padtbbase {
-	padding-top: 6rem;
-	padding-bottom: 6rem;
+	padding-top: 6vw;
+	padding-bottom: 6vw;
 }
 
 .bordertopbottom {
@@ -560,7 +560,7 @@ hr {
 	font-family: "Red Hat Display", sans-serif;
 	color: white;
 	margin-bottom: 1%;
-	font-size: 5rem;
+	font-size: 5vw;
 	line-height: 1.18;
 	font-weight: 800;
 	letter-spacing: -0.02em;
@@ -570,7 +570,7 @@ hr {
 .psez5e6e7 {
 	color: rgb(162 162 168);
 	font-family: "Inter", sans-serif;
-	font-size: 2.2rem;
+	font-size: 2.2vw;
 	line-height: 1.5;
 	text-align: center;
 	letter-spacing: -0.01em;
@@ -579,7 +579,7 @@ hr {
 
 /*Sez 5*/
 .sez5divh1p {
-	padding-bottom: 4rem;
+	padding-bottom: 4vw;
 	text-align: center;
 	width: 70%;
 	margin-left: auto;
@@ -601,10 +601,10 @@ hr {
 	font-family: "Inter", sans-serif;
 	color: rgb(212 212 216);
 	font-weight: 600;
-	font-size: 1.7rem;
+	font-size: 1.7vw;
 	line-height: 1.5;
 	letter-spacing: -0.02em;
-	padding: 1rem 0;
+	padding: 1vw 0;
 }
 
 .sez6a {
@@ -716,9 +716,9 @@ img[src^="about.image/team-member-"] {
 	align-items: center;
 	color: rgb(244 244 245);
 	font-family: "Red Hat Display", sans-serif;
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.5vw;
 	font-weight: 800;
-	font-size: 4rem;
+	font-size: 4vw;
 	line-height: 1.24;
 	letter-spacing: -0.01em;
 }
@@ -728,23 +728,23 @@ img[src^="about.image/team-member-"] {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border-radius: 0.25rem;
+	border-radius: 1rem;
 	border-width: 1px;
 	border-color: transparent;
-	font-size: 1.5rem;
+	font-size: 1.5vw;
 	font-weight: 500;
 	line-height: 1.375;
 	font-family: "Inter", sans-serif;
 	color: rgb(255 255 255);
 	background-color: rgb(58 186 180);
-	padding: 1rem 3rem;
+	padding: 1vw 3vw;
 	letter-spacing: -0.01em;
 	cursor: pointer;
 	text-decoration: none;
 }
 
 .sez7buttondiv {
-	margin-top: 2rem;
+	margin-top: 2vw;
 	display: flex;
 	justify-content: center;
 }
@@ -763,7 +763,7 @@ img[src^="about.image/team-member-"] {
 
 .footergrid h3 {
 	font-weight: 550;
-	margin-bottom: 0.4rem;
+	margin-bottom: 0.4vw;
 	line-height: 1.5;
 	color: rgb(244 244 245);
 	font-family: "Inter", sans-serif;
@@ -777,8 +777,8 @@ img[src^="about.image/team-member-"] {
 }
 
 .footersvg {
-	width: 3rem;
-	height: 3rem;
+	width: 3vw;
+	height: 3vw;
 }
 
 .footercol1 {
@@ -805,6 +805,7 @@ img[src^="about.image/team-member-"] {
 	overflow: visible;
 	white-space: nowrap;
 	text-decoration: none;
+	max-width: 20vw;
 }
 .footertext1:hover {
 	text-decoration: underline;
@@ -816,7 +817,7 @@ img[src^="about.image/team-member-"] {
 
 .footerflex {
 	display: flex;
-	margin-top: 6rem;
+	margin-top: 6vw;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -877,5 +878,5 @@ img[src^="about.image/team-member-"] {
 }
 
 .footerpadding {
-	padding-bottom: 5rem;
+	padding-bottom: 3vw;
 }

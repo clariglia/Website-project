@@ -1,10 +1,21 @@
 /* media query */
 
-@mEDIA (max-width: 768px) {
+@media (max-width: 768px) {
+	footer {
+		font-size: 1vw;
+	}
 
-    footer {
-        font-size: 1vw;
-    }
+	.footerflex {
+		margin-top: 5vw;
+	}
+
+	.sez6a {
+		background-size: 8px 6.5px;
+	}
+
+	.sez7a {
+		border-radius: 0.2rem;
+	}
 
 	nav {
 		width: 100%;
@@ -12,30 +23,40 @@
 		padding: 0 3%;
 	}
 
-    nav a {
-        padding: 1vw 3vw;
-    }
+	.sez6grid {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: auto;
+		grid-template-areas:
+			"sez6ele1 sez6ele2 sez6ele3 sez6ele4"
+			"sez6ele5 sez6ele6 sez6ele7 sez6ele8"
+			". sez6ele9 sez6ele10 .";
+		column-gap: 2%;
+		row-gap: 10%;
+	}
 
-    .img-header {
+	nav a {
+		padding: 1vw 3vw;
+	}
+
+	.img-header {
 		width: 70%;
 	}
 
-    .svg-sec-1 {
-        width: 95%;
-        margin: auto;
-    }
+	.svg-sec-1 {
+		width: 95%;
+		margin: auto;
+	}
 
-    .sec-2 {
-        padding: 0 2%;
-    }
+	.sec-2 {
+		padding: 0 2%;
+	}
 
-    .big-sec-3 {
-        width: 100%;
-    }
+	.big-sec-3 {
+		width: 100%;
+	}
 
     .big-sec-3 > aside {
         padding: 0;
     }
-    
 
 }
