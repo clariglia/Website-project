@@ -1,0 +1,95 @@
+/* media query */
+
+@media (max-width: 768px) {
+	footer {
+		font-size: 1vw;
+	}
+
+	.mysvg {
+		zoom: 0.8;
+	}
+
+	.basemargin {
+		margin: 0 5vw;
+	}
+
+	.h1sez5e6 {
+		font-size: 4.2vw;
+	}
+
+	.sez6h4 {
+		font-family: "Inter", sans-serif;
+		color: rgb(212 212 216);
+		font-weight: 600;
+		font-size: 1.8vw;
+		line-height: 1.5;
+		letter-spacing: -0.02em;
+		padding: 1vw 0;
+	}
+
+	.psez5e6e7 {
+		color: rgb(162 162 168);
+		font-family: "Inter", sans-serif;
+		font-size: 2.2vw;
+		line-height: 1.5;
+		text-align: center;
+		letter-spacing: -0.01em;
+		opacity: 0.8;
+	}
+
+	.footerflex {
+		margin-top: 5vw;
+	}
+
+	.sez7a {
+		border-radius: 0.2rem;
+	}
+
+	nav {
+		width: 100%;
+		margin: auto;
+		padding: 0 3%;
+	}
+
+	.sez6grid {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: auto;
+		grid-template-areas:
+			"sez6ele1 sez6ele2 sez6ele3 sez6ele4"
+			"sez6ele5 sez6ele6 sez6ele7 sez6ele8"
+			". sez6ele9 sez6ele10 .";
+		column-gap: 2%;
+		row-gap: 10%;
+	}
+
+	nav a {
+		padding: 1vw 3vw;
+	}
+
+	.img-header {
+		width: 70%;
+	}
+
+	.svg-sec-1 {
+		width: 95%;
+		margin: auto;
+	}
+
+	.sec-2 {
+		padding: 0 2%;
+	}
+
+	.big-sec-3 {
+		width: 100%;
+	}
+
+	.big-sec-3 > aside {
+		padding: 0;
+	}
+}
+
+@media (max-width: 480px) {
+	.mysvg {
+		zoom: 0.6;
+	}
+}
