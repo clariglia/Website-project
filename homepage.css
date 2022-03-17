@@ -611,9 +611,8 @@ aside ul {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 2rem;
-    width: 69%;
     height: max-content;
 }
 
@@ -1336,7 +1335,7 @@ ul {
     .write-third_section {
         font-size: 0.8rem;
     }
-    
+
     .boxvideo {
         width: 15rem;
         height: 10rem;
