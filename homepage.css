@@ -1054,6 +1054,9 @@ ul {
         font-size: 3rem;
     }
     /*!2° sezione tablet*/
+    .carousel1 {
+        height: 20vh;
+    }
 
     /*!3° sezione tablet*/
     .listflex {
@@ -1268,6 +1271,7 @@ ul {
         flex-wrap: wrap;
         justify-content: center;
         gap: 2rem;
+        margin-bottom: 5rem;
     }
     .listflex {
         width: 100%;
