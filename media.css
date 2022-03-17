@@ -1,0 +1,39 @@
+/* media query */
+
+@mEDIA (max-width: 768px) {
+
+    footer {
+        font-size: 1vw;
+    }
+
+	nav {
+		width: 100%;
+		margin: auto;
+		padding: 0 3%;
+	}
+
+    nav a {
+        padding: 1vw 3vw;
+    }
+
+    .img-header {
+		width: 70%;
+	}
+
+    .svg-sec-1 {
+        width: 95%;
+        margin: auto;
+    }
+
+    .sec-2 {
+        padding: 0 2%;
+    }
+
+    .big-sec-3 {
+        width: 100%;
+    }
+
+    .big-sec-3 > aside {
+        padding: 0;
+    }
+}
