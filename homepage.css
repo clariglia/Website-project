@@ -215,14 +215,6 @@ span {
     justify-content: center;
     gap: 5rem;
     flex-wrap: wrap;*/
-    padding: 0 5rem;
-    margin-top: 10rem;
-    width: 100vw;
-    height: 80rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items:center;
-    justify-content: space-around;
 }
 
 .photophone {
@@ -628,6 +620,8 @@ aside ul {
     display: flex;
     justify-content: flex-end;
     gap: 2rem;
+    justify-content: center;
+    width: 69%;
     height: max-content;
 }
 
@@ -725,10 +719,6 @@ a>p {
     color: #f4f4f5;
     display: flex;
     justify-content: space-between;
-}
-.site-logo-footer {
-    width:13rem;
-    height:3.2rem;
 }
 
 .dollarsign {
@@ -1370,7 +1360,7 @@ ul {
     .write-third_section {
         font-size: 0.8rem;
     }
-
+    
     .boxvideo {
         width: 15rem;
         height: 10rem;
