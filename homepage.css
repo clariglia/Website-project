@@ -725,6 +725,7 @@ a>p {
     color: #f4f4f5;
     display: flex;
     justify-content: space-between;
+}
 .site-logo-footer {
     width:13rem;
     height:3.2rem;
@@ -832,13 +833,15 @@ h2~p {
     position: absolute;
     right: 2.7rem;
     bottom: 2rem;
+}
+
 .list {
-    /*width: 20%;*/
     height: max-content;
     flex-wrap: wrap;
     display: flex;
     justify-content: flex-start;
 }
+
 .title-list-fifth {
     font-family:"red hat display", helvetica,sans-serif;
     font-size:18px;
