@@ -50,8 +50,7 @@ i:hover {
 header {
 	background-image: url("/blog.image/hero-bg.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 100vh;
+	background-size: contain;
 }
 .blur-bg {
 	background: linear-gradient(
