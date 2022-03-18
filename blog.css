@@ -48,18 +48,24 @@ i:hover {
 }
 
 header {
-	background-image: url("/blog.image/hero-bg.jpg");
+	background-image: url("blog.image/hero-bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 100vh;
 }
 .blur-bg {
-	background: linear-gradient(
+	/* background: linear-gradient(
 		to bottom,
 		rgba(14, 13, 13, 0.7),
 		rgba(12, 12, 12, 0.7),
 		rgba(14, 14, 14, 01)
-	);
+	); */
+	background: linear-gradient(
+		to bottom,
+		rgba(14, 13, 13, 0.7),
+		rgba(12, 12, 12, 0.7),
+		rgba(17, 17, 17, 0.9)
+		);
 	padding-bottom: 20px;
 }
 
@@ -234,7 +240,7 @@ header {
 }
 
 .p2 a h3 {
-	font-size: 1.1rem;
+	font-size: 1.05rem;
 	line-height: 1.5;
 	font-weight: 700;
 	font-family: "Red Hat Display", sans-serif;
@@ -255,7 +261,8 @@ padding-bottom: 10px;
 
 .main-content {
 	/* margin: 20px 50px 0px 50px; */
-	background: linear-gradient(to bottom, rgb(13, 13, 14), rgba(14, 14, 14, 01) , rgb(29, 29, 32) );
+	/* background: linear-gradient(to bottom, rgb(13, 13, 14), rgba(14, 14, 14, 01) , rgb(29, 29, 32) ); */
+	background: linear-gradient(to bottom, #131315, rgba(14, 14, 14, 01) , rgb(29, 29, 32) );
 	display: flex;
 	justify-content:center;
 	width: 100%;
